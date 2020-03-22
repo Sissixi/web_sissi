@@ -10,7 +10,6 @@ B端登录页面元素定位
 '''
 
 class LoginBLoc:
-
     username = (By.ID, 'username')
     password = (By.ID, 'password')
     button = (By.TAG_NAME, 'button')

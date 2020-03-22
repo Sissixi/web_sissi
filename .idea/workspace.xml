@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eeab82d-0270-4ae2-9e62-c67f71f5ed03" name="Default Changelist" comment="" />
+    <list default="true" id="0eeab82d-0270-4ae2-9e62-c67f71f5ed03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleCLoc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleCLoc/login_c_pageloc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleCPage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleCPage/login_c_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_drag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commons/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/login_b_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/login_b_pageloc.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,19 +22,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Y4W8IY285VoIBvCaMcqlpT3ZyI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_drag.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,32 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.xx.html">
-    <configuration name="xx.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:30445/WBY_Test_WEB/xx.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="basepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="WBY_Test_WEB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Commons" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Commons/basepage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_drag">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WBY_Test_WEB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,68 +110,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_a_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="test_drag" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WBY_Test_WEB" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/ModuleATest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/ModuleATest/test_a_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_b_check_reservation.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="WBY_Test_WEB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/TestModuleB" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleB/test_b_check_reservation.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_b_login.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="WBY_Test_WEB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="F:\pythonxi\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleB/test_b_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_drag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.xx.html" />
-      <item itemvalue="Python.basepage" />
+      <item itemvalue="Python.test_drag" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.pytest in test_b_login.py" />
-      <item itemvalue="Python tests.pytest in test_a_login.py" />
-      <item itemvalue="Python tests.pytest in test_b_check_reservation.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.xx.html" />
-        <item itemvalue="Python tests.pytest in test_b_check_reservation.py" />
-        <item itemvalue="Python tests.pytest in test_a_login.py" />
-        <item itemvalue="Python.basepage" />
+        <item itemvalue="Python.test_drag" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -191,24 +166,62 @@
       <workItem from="1584769839630" duration="4372000" />
       <workItem from="1584783814332" duration="1635000" />
       <workItem from="1584785504366" duration="403000" />
+      <workItem from="1584786981518" duration="2201000" />
+      <workItem from="1584789558629" duration="609000" />
+      <workItem from="1584874178832" duration="9954000" />
     </task>
+    <task id="LOCAL-00001" summary="重运行间隔时间变为6s">
+      <created>1584787740047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584787740047</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test分支重运行间隔时间变为5s">
+      <created>1584788359844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584788359845</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重运行间隔时间变为6s" />
+    <MESSAGE value="test分支重运行间隔时间变为5s" />
+    <option name="LAST_COMMIT_MESSAGE" value="test分支重运行间隔时间变为5s" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$main.coverage" NAME="main Coverage Results" MODIFIED="1584269171920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_create_Booking_activities_py.coverage" NAME="pytest in test_active_activities.py Coverage Results" MODIFIED="1582384168493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
+    <SUITE FILE_PATH="coverage/gittest$basepage.coverage" NAME="test_drag Coverage Results" MODIFIED="1584886799324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_b_login_py.coverage" NAME="pytest in test_b_login.py Coverage Results" MODIFIED="1584350566779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$handle_logs.coverage" NAME="handle_logs Coverage Results" MODIFIED="1582202552827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_active_activities_py.coverage" NAME="pytest in test_active_activities.py Coverage Results" MODIFIED="1582436235654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1582297821323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/WBY_Test_WEB$select_active_pageloc.coverage" NAME="select_active_pageloc Coverage Results" MODIFIED="1582338016018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageLocators/ModuleALoc" />
-    <SUITE FILE_PATH="coverage/WBY_Test_WEB$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1584272458781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_b_check_reservation_py.coverage" NAME="pytest in test_b_check_reservation.py Coverage Results" MODIFIED="1584366574068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
+    <SUITE FILE_PATH="coverage/gittest$pytest_in_test_drag_py.coverage" NAME="pytest in test_drag.py Coverage Results" MODIFIED="1584878137319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$Booking_activities_datas.coverage" NAME="Booking_activities_datas Coverage Results" MODIFIED="1582349118891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDatas/ModuleADatas" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_a_login_py.coverage" NAME="pytest in test_a_login.py Coverage Results" MODIFIED="1584350677724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_for_test_login_TestLoginA.coverage" NAME="pytest for test_login.TestLoginA Coverage Results" MODIFIED="1582209662060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_create_Booking_activities_py.coverage" NAME="pytest in test_active_activities.py Coverage Results" MODIFIED="1582384168493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
+    <SUITE FILE_PATH="coverage/WBY_Test_WEB$select_active_pageloc.coverage" NAME="select_active_pageloc Coverage Results" MODIFIED="1582338016018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageLocators/ModuleALoc" />
+    <SUITE FILE_PATH="coverage/WBY_Test_WEB$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1584272458781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
   </component>
 </project>

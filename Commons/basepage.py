@@ -369,7 +369,9 @@ class BasePage:
             self._save_page_shot(img_doc)
             raise
 
-
+    def mouse_drag_and_drop_by_offset(self,loc,img_doc, timeout=20, poll_frequency=0.5):
+        '''鼠标操作拖拽'''
+        pass
 
 
 if __name__ == '__main__':
