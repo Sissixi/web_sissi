@@ -20,7 +20,7 @@ class BookingData:
     # 填写预约需求--选择预约结果反馈时间
     feedback_time = (datetime.datetime.now() + datetime.timedelta(days=3)).strftime("%Y-%m-%d %H:%M")
     '''选择账号页面数据'''
-    account_name="古力娜扎"
+    account_name = "古力娜扎"
     '''提交已选择账号页面'''
-    #需求描述内容
-    content_msg="测试数据"
+    # 需求描述内容
+    content_msg = "测试数据"

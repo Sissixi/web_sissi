@@ -14,6 +14,8 @@ from Commons.handle_Path import SCREEN_PATH
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.select import Select
+
 
 class BasePage:
     def __init__(self, drive: WebDriver):
@@ -208,6 +210,7 @@ class BasePage:
             self.driver.switch_to.window(wins[-1])
         except:
             do_log.exception("切换最新窗口失败")
+            raise
 
     def check_ele_visiable(self, loc, img_doc, timeout=20, poll_frequency=0.5):
         '''
@@ -349,16 +352,16 @@ class BasePage:
             # 返回弹框中文本内容
             return content
 
-    def mouse_action(self,loc,img_doc, timeout=20, poll_frequency=0.5):
+    def mouse_action(self, loc, img_doc, timeout=20, poll_frequency=0.5):
         '''鼠标操作-鼠标悬浮'''
         try:
-            #1.实例化action_chains
-            ac=ActionChains(self.driver)
+            # 1.实例化action_chains
+            ac = ActionChains(self.driver)
             time.sleep(1)
             # 2.将要操作的动作放在链表中
-            ele = self.get_element(loc,img_doc)
+            ele = self.get_element(loc, img_doc)
             time.sleep(1)
-            #设置鼠标悬浮
+            # 设置鼠标悬浮
             ac.move_to_element(ele)
             # 鼠标即悬浮又点击
             # ac.move_to_element(ele).click(ele)
@@ -369,9 +372,37 @@ class BasePage:
             self._save_page_shot(img_doc)
             raise
 
-    def mouse_drag_and_drop_by_offset(self,loc,img_doc, timeout=20, poll_frequency=0.5):
+    def mouse_drag_and_drop_by_offset(self, loc, img_doc, timeout=20, poll_frequency=0.5):
         '''鼠标操作拖拽'''
         pass
+
+    def drop_down_box(self, loc, img_doc, timeout=20, poll_frequency=0.5):
+        '''下拉框操作_实例化select类'''
+        # 1.先等待select元素可见
+        self.wait_ele_visable(loc, img_doc)
+        # 2.找到可见的select元素
+        ele = self.get_element(loc, img_doc)
+        do_log.info(f"{img_doc}找到{loc}元素")
+        try:
+            # 实例化select类
+            s = Select(ele)
+            # 获取下拉列表的值
+        except:
+            do_log.exception("实例化select类失败")
+            self._save_page_shot(img_doc)
+            raise
+        else:
+            return s
+
+    def select_value(self, loc, img_doc, text_value, timeout=20, poll_frequency=0.5):
+        '''下拉操作_获取下拉列表的值，根据文本值获取'''
+        try:
+            # 根据下拉列表的文本值获取下拉列表的值，text_value代表文本值
+            self.drop_down_box(loc, img_doc).select_by_visible_text(text_value)
+        except:
+            do_log.exception("获取下拉列表的文本值失败")
+            self._save_page_shot(img_doc)
+            raise
 
 
 if __name__ == '__main__':

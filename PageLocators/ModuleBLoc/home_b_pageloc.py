@@ -14,4 +14,6 @@ class HomeBLoc:
     check_loc=(By.XPATH,'//a[text()="审核"]')
     #预约需求审核
     Reservation_check=(By.XPATH,"//a[text()='预约需求审核']")
+    #预约需求列表
+    Booking_list=(By.XPATH,'//a[text()="预约订单列表（M）"]')
 
