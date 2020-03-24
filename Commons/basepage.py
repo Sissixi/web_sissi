@@ -106,6 +106,28 @@ class BasePage:
             self._save_page_shot(img_doc)
             raise
 
+    def clear_element(self, loc, img_doc, timeout=20, poll_frequency=0.5):
+        '''
+        清除操作
+        :param loc: 元素定位
+        :param img_doc: 截图
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        '''
+        # 1.先等待元素可见
+        self.wait_ele_visable(loc, img_doc)
+        # 2.找到可见的元素
+        ele = self.get_element(loc, img_doc)
+        do_log.info(f"{img_doc}清除{loc}元素")
+        try:
+            ele.clear()
+        except:
+            do_log.exception(f"{img_doc}清除{loc}元素失败")
+            # 截图
+            self._save_page_shot(img_doc)
+            raise
+
     def input_text(self, loc, text, img_doc, timeout=20, poll_frequency=0.5):
         '''
         输入操作
@@ -235,11 +257,9 @@ class BasePage:
     def switch_to_iframe(self, iframe_pref, img_doc, timeout=20, poll_frequency=0.5):
         '''
         iframe切换
-        :param iframe_pref:等待元素可用并切换进去，iframe的标识。支持下标、定位元组、WebElement对象、name属性
-        :param img_doc:
-        :param timeout:
-        :param poll_frequency:
-        :return:
+        判断frame是否可用，如果可用则返回True并切入到该frame，
+        参数iframe_pref可以是定位器locator也就是（by,xpath）组成的元组，
+        或者定位方法：ID、name、index(该frame在页面上的索引号)，或WebElement对象
         '''
         try:
             WebDriverWait(self.driver, timeout).until(
@@ -250,7 +270,7 @@ class BasePage:
             self._save_page_shot(img_doc)
             raise
         else:
-            do_log.info(f"切换{img_doc}的iframe元素:{iframe_pref}成功!可对新的html页面操作")
+            do_log.info(f"切换{img_doc}的iframe元素成功!可对新的html页面操作")
 
     def back_iframe(self, img_doc):
         try:
@@ -394,7 +414,7 @@ class BasePage:
         else:
             return s
 
-    def select_value(self, loc, img_doc, text_value, timeout=20, poll_frequency=0.5):
+    def select_value(self, loc, text_value, img_doc, timeout=20, poll_frequency=0.5):
         '''下拉操作_获取下拉列表的值，根据文本值获取'''
         try:
             # 根据下拉列表的文本值获取下拉列表的值，text_value代表文本值
@@ -403,44 +423,3 @@ class BasePage:
             do_log.exception("获取下拉列表的文本值失败")
             self._save_page_shot(img_doc)
             raise
-
-
-if __name__ == '__main__':
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    # driver.get("http://chuanbo.tst-weiboyi.com/")
-    # bp = BasePage(driver)
-    # bp.input_text((By.ID, "username"), "luckyxi", "用户名输入")
-    # bp.input_text((By.ID, "password"), "wbyxixi", "密码输入")
-    # bp.input_text((By.ID, "piccode"), "1234", "验证码输入")
-    # bp.click_element((By.CLASS_NAME, 'btn_wrap'), "登录按钮")
-    # time.sleep(2)
-    # data = bp.operation_popout_text()
-    # time.sleep(3)
-    # driver.quit()
-    # print(data)
-
-    # driver.get("http://chuanbo.tst-weiboyi.com/hwreservation/index/shoppingcartlist/reservation_requirement_id/43116")
-    # driver.maximize_window()
-    # bp = BasePage(driver)
-    # bp.input_text((By.ID, "username"), "luckyxi", "用户名输入")
-    # bp.input_text((By.ID, "password"), "wbyxixi123", "用户名输入")
-    # bp.input_text((By.ID, "piccode"), "1234", "用户名输入")
-    # bp.click_element((By.CLASS_NAME, 'btn_wrap'), "用户名输入")
-    # bp.click_element((By.XPATH, '//input[@class="js_select_all"]'), "全选")
-    # bp.click_element((By.XPATH, '//span[text()="批量添加订单信息并提交"]'), "批量添加订单信息并提交")
-    # bp.click_element((By.XPATH, '//div[@class="weiboyiWindow_foot"]//span[text()="确定"]'), "提示框确认按钮")
-    # time.sleep(1)
-    #
-    # bp.switch_to_iframe(driver.find_element(By.ID, "ueditor_0"), "切换到iframe中")
-    # time.sleep(2)
-    # bp.click_element((By.XPATH, '//p[contains(text(),"1）防屏蔽")]'), "定位到防屏蔽")
-    #
-    # time.sleep(3)
-    # bp.input_text((By.XPATH, '//p[contains(text(),"1）防屏蔽")]'), "测试赛测试赛测试赛", "定位到防屏蔽")
-    #
-    # time.sleep(3)
-    # driver.switch_to.default_content()
-    # bp.click_element((By.XPATH, '//a[contains(@class,"weiboyiWindow_btn")]//span[text()="保存并提交"]'), "保存")
-    # time.sleep(2)
-    # driver.quit()

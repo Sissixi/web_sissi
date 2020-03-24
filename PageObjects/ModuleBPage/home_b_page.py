@@ -15,6 +15,9 @@ class Home_B_Page(BasePage):
     def click_Reservation_check(self):
         self.click_element(loc.Reservation_check,"B端首页_点击审核预约需求审核")
 
+    def mouse_booking_list(self):
+        #先调用鼠标悬浮操作
+        self.mouse_action(loc.V_M,"B端首页_鼠标悬浮在V代言M元素")
+
     def click_Booking_list(self):
         self.click_element(loc.Booking_list,"B端首页_点击V代言M下的预约订单列表（M）")
-

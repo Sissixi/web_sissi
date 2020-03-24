@@ -23,6 +23,7 @@ class AccountSubmitPage(BasePage):
 
     def switch_form(self):
         ele = self.get_element(loc.requirement_description, "切换iframe_需求描述表单")
+        # 此处传的是WebElement对象,ele=WebElement对象
         self.switch_to_iframe(ele, "添加订单信息并提交弹框中_需求描述")
 
     def requirement_description_form(self, description):

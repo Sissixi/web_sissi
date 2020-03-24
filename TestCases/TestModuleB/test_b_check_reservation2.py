@@ -14,6 +14,9 @@ from TestDatas.ModuleBDatas.login_b_datas import success_b_data
 from TestDatas.ModuleADatas.Booking_activities_datas import BookingData
 from time import sleep
 
+'''B端预约需求审核'''
+
+
 @pytest.fixture
 def b_process():
     driver = webdriver.Chrome()
@@ -30,7 +33,7 @@ def b_process():
 @pytest.mark.usefixtures("b_process")
 class Test_B_check:
     def test_B_check_reservation(self, b_process):
-        '''B端审核'''
+        '''B端预约需求审核'''
         # 调用B端登录行为
         b_process[1].loginB(success_b_data["username"], success_b_data["password"])
         # 调用鼠标悬浮到审核操作
@@ -44,9 +47,9 @@ class Test_B_check:
         Order_b_check_Page(b_process[0]).order_click_button()
         # 预约审核页面-点击查询到的预约需求名称
         Order_b_check_Page(b_process[0]).click_requirement_name()
-        #切换到最新窗口
+        # 切换到最新窗口
         Order_b_check_Page(b_process[0]).switch_new_windows()
-        #操作预约需求审核通过
+        # 操作预约需求审核通过
         Review_detailsPage(b_process[0]).click_check_comment()
         Review_detailsPage(b_process[0]).confirm_bounced()
         Review_detailsPage(b_process[0]).confirm_pop_up()
@@ -54,10 +57,6 @@ class Test_B_check:
         Review_detailsPage(b_process[0]).click_auide_all()
         Review_detailsPage(b_process[0]).click_batch_auide_pass()
         Review_detailsPage(b_process[0]).confirm_pop_up()
-
-
-
-
 
 
 if __name__ == '__main__':

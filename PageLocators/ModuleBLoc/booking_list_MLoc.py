@@ -13,6 +13,5 @@ class Booking_listLoc:
     Query_button = (By.ID, "order_search")
     #应约按钮
     accept_button=(By.CLASS_NAME,"AcceptReservationBrief")
-    #定位到iframe中
 
 
