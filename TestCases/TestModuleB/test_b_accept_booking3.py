@@ -66,6 +66,10 @@ class Test_Accept_process:
         # 应约弹框_切换应约回复输入框
         b_accept_process[4].switch_to_reply_box()
         sleep(1)
+        #应约弹框_点击iframe_body处
+        b_accept_process[4].click_body()
+        #应约弹框_点击iframe_body_p处
+        b_accept_process[4].click_clear_body_p()
         # 应约弹框_输入应约回复
         b_accept_process[4].send_accept_content(B_Data.replace_content)
         sleep(10)

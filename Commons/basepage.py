@@ -304,7 +304,7 @@ class BasePage:
 
     def input_key_text(self, loc, keymethod, img_doc, timeout=20, poll_frequency=0.5):
         '''
-        鼠标操作
+        鼠标操作--输入文本
         :param loc:
         :param text:输入的文本
         :param img_doc:
@@ -423,3 +423,32 @@ class BasePage:
             do_log.exception("获取下拉列表的文本值失败")
             self._save_page_shot(img_doc)
             raise
+
+    def js_scrollIntoView(self, loc, img_doc, timeout=20, poll_frequency=0.5):
+        '''js处理滚动条操作'''
+        # 1.等待元素可见
+        self.wait_ele_visable(loc, img_doc)
+        # 2.找到可见元素
+        element = self.get_element(loc, img_doc)
+        do_log.info(f"通过js语句处理滚动条操作")
+        try:
+            self.driver.execute_script("arguments[0].scrollIntoView(false);", element)
+        except:
+            do_log.exception(f"通过js语句处理滚动条操作失败")
+            # 截图
+            self._save_page_shot(img_doc)
+        else:
+            do_log.info(f"通过js语句处理滚动条操作成功")
+
+    def handle_keys_DELETE(self, loc, img_doc, timeout=20, poll_frequency=0.5):
+        '''键盘操作--键盘删除'''
+        # 1.等待元素可见
+        self.wait_ele_visable(loc, img_doc)
+        # 2.找到可见元素
+        element = self.get_element(loc, img_doc)
+        try:
+            element.send_keys(Keys.DELETE)
+        except:
+            do_log.exception(f"键盘操作--键盘删除失败")
+            # 截图
+            self._save_page_shot(img_doc)
