@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eeab82d-0270-4ae2-9e62-c67f71f5ed03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Commons/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/accept_pop_upLoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/accept_pop_upLoc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/accept_pop_up_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/accept_pop_up_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TestModuleB/test_b_accept_booking3.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleB/test_b_accept_booking3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_drag.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_drag.py" afterDir="false" />
-    </list>
+    <list default="true" id="0eeab82d-0270-4ae2-9e62-c67f71f5ed03" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,60 +12,6 @@
     <SUITE FILE_PATH="coverage/web_git$test_b_check_reservation2.coverage" NAME="test_b_check_reservation2 Coverage Results" MODIFIED="1584934014672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
     <SUITE FILE_PATH="coverage/web_git$main.coverage" NAME="main Coverage Results" MODIFIED="1584934880531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/web_git$test_drag.coverage" NAME="test_drag Coverage Results" MODIFIED="1584957178929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/web_sissi$test_drag.coverage" NAME="test_drag Coverage Results" MODIFIED="1585123267907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/web_sissi$pytest_in_test_b_accept_booking3_py.coverage" NAME="pytest in test_b_accept_booking3.py Coverage Results" MODIFIED="1585130582930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test_drag.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_drag.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="635" column="9" lean-forward="true" selection-start-line="635" selection-start-column="9" selection-end-line="635" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accept_pop_upLoc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PageLocators/ModuleBLoc/accept_pop_upLoc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accept_pop_up_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PageObjects/ModuleBPage/accept_pop_up_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_b_accept_booking3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestCases/TestModuleB/test_b_accept_booking3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basepage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Commons/basepage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10575">
-              <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,14 +21,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>js</find>
-      <find>Keys</find>
-      <find>send_keys</find>
-      <find>find_element</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -114,96 +44,15 @@
       </branch-storage>
     </excluded-from-favorite>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Commons/basepage.py" />
-        <option value="$PROJECT_DIR$/test_drag.py" />
-        <option value="$PROJECT_DIR$/PageLocators/ModuleBLoc/accept_pop_upLoc.py" />
-        <option value="$PROJECT_DIR$/PageObjects/ModuleBPage/accept_pop_up_page.py" />
-        <option value="$PROJECT_DIR$/TestCases/TestModuleB/test_b_accept_booking3.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
-  </component>
   <component name="ProjectId" id="1Y4W8IY285VoIBvCaMcqlpT3ZyI" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="Commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="Outputs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="PageLocators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="PageLocators" type="462c0819:PsiDirectoryNode" />
-              <item name="ModuleBLoc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_sissi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_sissi" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-              <item name="TestModuleB" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -233,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_b_accept_booking3.py">
+  <component name="RunManager" selected="Python.test_drag">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WBY_Test_WEB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,6 +101,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="test_drag" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WBY_Test_WEB" />
@@ -271,6 +123,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="WBY_Test_WEB" />
@@ -286,6 +141,7 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration name="pytest in test_b_accept_booking3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WBY_Test_WEB" />
@@ -301,6 +157,7 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleB/test_b_accept_booking3.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration name="pytest in web_sissi" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="WBY_Test_WEB" />
@@ -316,17 +173,18 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in web_sissi" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test_drag" />
+      <item itemvalue="Python tests.pytest in web_sissi" />
       <item itemvalue="Python tests.pytest in test_b_accept_booking3.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_b_accept_booking3.py" />
         <item itemvalue="Python.test_drag" />
+        <item itemvalue="Python tests.pytest in test_b_accept_booking3.py" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -358,7 +216,8 @@
       <workItem from="1584789558629" duration="609000" />
       <workItem from="1584874178832" duration="9954000" />
       <workItem from="1584966095520" duration="10300000" />
-      <workItem from="1585035359795" duration="16353000" />
+      <workItem from="1585035359795" duration="16447000" />
+      <workItem from="1585186480058" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="重运行间隔时间变为6s">
       <created>1584787740047</created>
@@ -374,40 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1584788359845</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="定位不到元素">
+      <created>1585063813342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585063813342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_in_test_b_accept_booking3_py - 2020.03.25 at 18h 04m 08s.xml">
-      <configuration name="pytest in test_b_accept_booking3.py" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.62601626" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1704871" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49864498" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -418,12 +252,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -431,39 +259,11 @@
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重运行间隔时间变为6s" />
     <MESSAGE value="test分支重运行间隔时间变为5s" />
-    <option name="LAST_COMMIT_MESSAGE" value="test分支重运行间隔时间变为5s" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_drag.py</url>
-          <line>579</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_drag.py</url>
-          <line>640</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="17" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="dr" language="Python" />
-        <watch expression="driver.find_elements(By.TAG_NAME,&quot;p&quot;)" language="Python" />
-        <watch expression="eles" language="Python" />
-        <watch expression="driver.find_element()" language="Python" />
-        <watch expression="driver.find_element(By.XPATH, '//*[contains(@id,&quot;weiboyiCmp&quot;)]//a[contains(@class,&quot;btn_small_important&quot;)]')" language="Python" />
-        <watch expression="driver.find_element(By.XPATH, '//*[contains(@id,&quot;weiboyiCmp11&quot;)]//a[contains(@class,&quot;btn_small_important&quot;)]')" language="Python" />
-      </configuration>
-    </watches-manager>
+    <MESSAGE value="定位不到元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="定位不到元素" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$main.coverage" NAME="main Coverage Results" MODIFIED="1584269171920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -479,161 +279,9 @@
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_a_login_py.coverage" NAME="pytest in test_a_login.py Coverage Results" MODIFIED="1584350677724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_for_test_login_TestLoginA.coverage" NAME="pytest for test_login.TestLoginA Coverage Results" MODIFIED="1582209662060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_create_Booking_activities_py.coverage" NAME="pytest in test_active_activities.py Coverage Results" MODIFIED="1582384168493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
-    <SUITE FILE_PATH="coverage/web_sissi$test_drag.coverage" NAME="test_drag Coverage Results" MODIFIED="1585063699337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web_sissi$test_drag.coverage" NAME="test_drag Coverage Results" MODIFIED="1585186770114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$select_active_pageloc.coverage" NAME="select_active_pageloc Coverage Results" MODIFIED="1582338016018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageLocators/ModuleALoc" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1584272458781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
     <SUITE FILE_PATH="coverage/web_sissi$main.coverage" NAME="main Coverage Results" MODIFIED="1584966776890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>driver.find_element(By.XPATH, '//*[contains(@id,&quot;weiboyiCmp11&quot;)]//a[contains(@class,&quot;btn_small_important&quot;)]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_element(By.XPATH, '//*[contains(@id,&quot;weiboyiCmp&quot;)]//a[contains(@class,&quot;btn_small_important&quot;)]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_element()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>eles</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_elements(By.TAG_NAME,&quot;p&quot;)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>dr</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_element(By.TAG_NAME(&quot;body&quot;)).text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bp.driver.find_element(By.TAG_NAME,&quot;body&quot;).text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>driver.find_element(By.XPATH, '//*[contains(@id,&quot;weiboyiCmp&quot;)]//a[contains(@class,&quot;btn_small_important&quot;)]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_element(By.XPATH, '//*[contains(@id,&quot;weiboyiCmp11&quot;)]//a[contains(@class,&quot;btn_small_important&quot;)]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Commons/handle_Path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/python3/Lib/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/python3/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="953" column="8" selection-start-line="953" selection-start-column="8" selection-end-line="953" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/python3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/python3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/tool/python3/Lib/site-packages/selenium/webdriver/common/keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageLocators/ModuleBLoc/accept_pop_upLoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Commons/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10575">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_drag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="635" column="9" lean-forward="true" selection-start-line="635" selection-start-column="9" selection-end-line="635" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjects/ModuleBPage/accept_pop_up_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/TestModuleB/test_b_accept_booking3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
