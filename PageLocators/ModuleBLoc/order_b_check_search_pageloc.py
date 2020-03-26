@@ -14,4 +14,4 @@ class Order_checkloc:
     # 查询按钮
     order_button = (By.ID, "requirement_search")
     # 点击预约需求名称
-    requirement_name_click = (By.LINK_TEXT, "webzdh")
+    requirement_name_click = (By.XPATH, '//a[contains(text(),"webzdh")]')

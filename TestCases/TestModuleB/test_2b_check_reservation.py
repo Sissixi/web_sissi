@@ -9,7 +9,7 @@ from TestDatas.Commons_datas import base_b_url
 from PageObjects.ModuleBPage.login_b_page import LoginBPage
 from PageObjects.ModuleBPage.home_b_page import Home_B_Page
 from PageObjects.ModuleBPage.order_b_check_search_page import Order_b_check_Page
-from PageObjects.ModuleBPage.Booking_requirements_Audit_details_page import Review_detailsPage
+from PageObjects.ModuleBPage.booking_requirements_audit_details_page import Review_detailsPage
 from TestDatas.ModuleBDatas.login_b_datas import success_b_data
 from TestDatas.ModuleADatas.Booking_activities_datas import BookingData
 from time import sleep
@@ -53,8 +53,13 @@ class Test_B_check:
         Review_detailsPage(b_process[0]).click_check_comment()
         Review_detailsPage(b_process[0]).confirm_bounced()
         Review_detailsPage(b_process[0]).confirm_pop_up()
+        sleep(5)
+        #使用js_操作到底部
+        Review_detailsPage(b_process[0]).click_handle_js()
+        sleep(5)
         # 操作预约订单列表审核通过
         Review_detailsPage(b_process[0]).click_auide_all()
+        sleep(1)
         Review_detailsPage(b_process[0]).click_batch_auide_pass()
         Review_detailsPage(b_process[0]).confirm_pop_up()
 

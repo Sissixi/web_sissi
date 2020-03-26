@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/3/23 0023 下午 8:57
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleBLoc.booking_list_MLoc import Booking_listLoc as loc
+from PageLocators.ModuleBLoc.booking_list_m_pageLoc import Booking_listLoc as loc
 
 '''
 B端-V代言M-预约订单列表 （媒介）-待应约页面行为

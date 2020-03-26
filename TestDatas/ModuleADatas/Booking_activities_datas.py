@@ -5,12 +5,13 @@ Time:2020/2/22 0022 下午 12:58
 """
 '''A端预约活动页面用到的数据'''
 import datetime
+import time
 
 
 class BookingData:
     '''填写预约需求页面数据'''
     # 填写预约需求名字
-    booking_name = "webzdh"
+    booking_name = "webzdh" + time.strftime("%Y-%m-%d")
     # 填写预约需求描述
     description_content = "wbzdh测试"
     # 填写预约需求--选择预计推广开始时间

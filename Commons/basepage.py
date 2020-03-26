@@ -449,6 +449,17 @@ class BasePage:
         try:
             element.send_keys(Keys.DELETE)
         except:
-            do_log.exception(f"键盘操作--键盘删除失败")
+            do_log.exception("键盘操作--键盘删除失败")
             # 截图
+            self._save_page_shot(img_doc)
+
+    def js_iframe(self, js_ID, text, img_doc, timeout=20, poll_frequency=0.5):
+        '''js处理iframe富文本格式问题'''
+        try:
+            body = text
+            # js处理iframe问题
+            js = 'document.getElementById("{}").contentWindow.document.body.innerHTML="{}"'.format(js_ID, body)
+            self.driver.execute_script(js)
+        except:
+            do_log.exception("js处理iframe富文本格式失败")
             self._save_page_shot(img_doc)

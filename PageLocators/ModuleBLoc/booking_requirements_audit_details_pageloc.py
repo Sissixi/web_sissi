@@ -17,3 +17,5 @@ class Booking_requirements_AuditLoc:
     confirm_button = (By.XPATH, '//span[text()="确定"]')
     # 预约订单列表-单个订单的审核通过
     auide_pass = (By.XPATH, '//table[@id="report"]//a[text()="审核通过"]')
+    #预约订单列表-批量建议修改
+    Suggest_modify=(By.XPATH,'//a[text()="批量建议修改"][last()]')

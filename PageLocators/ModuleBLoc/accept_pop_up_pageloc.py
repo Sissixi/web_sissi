@@ -11,13 +11,14 @@ class accept_popLoc:
     top_link = (By.ID, 'with_topic_and_link')
     # 直发报价-应约按钮
     accept_button = (By.XPATH, '//*[@id="weiboyiCmp79"]//label[@class="replay_reservation"]')
-    # 应约回复
-    # 定位到iframe中,//div[@class='weiboyiWindow absoluteCenter']代表定位到弹框；[last()]代表最后一个class
-    accept_reply = (By.XPATH, "//div[@class='weiboyiWindow absoluteCenter'][last()]//iframe")
-    # 应约回复-定位到iframe内的body标签处
-    accept_body = (By.TAG_NAME, "body")
-    # 应约回复-定位到iframe内的body标签下的p元素中的任意一个
-    accept_body_p = (By.TAG_NAME, "p")[1]
+    # 应约回复切换至iframe下的id
+    iframe_id="ueditor_0"
+    # # 定位到iframe中,//div[@class='weiboyiWindow absoluteCenter']代表定位到弹框；[last()]代表最后一个class
+    # accept_reply = (By.XPATH, "//div[@class='weiboyiWindow absoluteCenter'][last()]//iframe")
+    # # 应约回复-定位到iframe内的body标签处
+    # accept_body = (By.TAG_NAME, "body")
+    # # 应约回复-定位到iframe内的body标签下的p元素中的任意一个
+    # accept_body_p = (By.TAG_NAME, "p")[1]
     # 提交按钮
     button = (By.XPATH, '//*[contains(@id,"weiboyiCmp")]//a[contains(@class,"btn_small_important")]')
     # 二次确认弹框

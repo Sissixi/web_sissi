@@ -9,7 +9,7 @@ from TestDatas.Commons_datas import base_b_url
 from time import sleep
 from PageObjects.ModuleBPage.login_b_page import LoginBPage
 from PageObjects.ModuleBPage.home_b_page import Home_B_Page
-from PageObjects.ModuleBPage.booking_list_MPage import Booking_listM_Page
+from PageObjects.ModuleBPage.booking_list_m_page import Booking_listM_Page
 from PageObjects.ModuleBPage.accept_pop_up_page import Accept_pop_page
 from TestDatas.ModuleBDatas.login_b_datas import success_b_data
 from TestDatas.ModuleADatas.Booking_activities_datas import BookingData
@@ -63,19 +63,9 @@ class Test_Accept_process:
         # 应约弹框_应约按钮
         b_accept_process[4].click_accept_button()
         sleep(1)
-        # 应约弹框_切换应约回复输入框
-        b_accept_process[4].switch_to_reply_box()
-        sleep(1)
-        #应约弹框_点击iframe_body处
-        b_accept_process[4].click_body()
-        #应约弹框_点击iframe_body_p处
-        b_accept_process[4].click_clear_body_p()
         # 应约弹框_输入应约回复
-        b_accept_process[4].send_accept_content(B_Data.replace_content)
+        b_accept_process[4].click_js_iframe(B_Data.replace_content)
         sleep(10)
-        # 应约弹框_退出应约回复输入框
-        b_accept_process[4].back_form_iframe()
-        sleep(1)
         # 应约弹框_提交按钮
         b_accept_process[4].click_button()
         sleep(1)

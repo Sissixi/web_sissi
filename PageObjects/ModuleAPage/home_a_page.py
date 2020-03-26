@@ -22,3 +22,7 @@ class HomePage(BasePage):
     def new_current(self):
         self.switch_to_new_window()
 
+    #点击活动管理
+    def click_active_manage(self):
+        self.click_element(loc.activity_manage,"A端首页_点击活动管理按钮")
+
