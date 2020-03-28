@@ -21,6 +21,8 @@ class Booking_detail_PageLoc:
     add_execution_content = (By.XPATH, '//div[@class="reservation_detail_operate"]//a[@action-type="add"]')
     # 定位到直发内容输入框
     straight_content = (By.XPATH, '//tr[@data-module="content"]/td/textarea')
+    # 直发内容输入框的class属性值
+    attr_value = "js_content"
     # 是否含有视频/直播-请选择定位
     select_live_video = (By.XPATH, '//select[@class="js_video_type"]')
     # 执行时间—开始时间定位
@@ -29,3 +31,7 @@ class Booking_detail_PageLoc:
     execute_end_time = (By.ID, "end_date")
     # 提交执行内容
     submit_content = (By.XPATH, '//span[text()="提交执行内容"]')
+    # 确认提交
+    confirm_commit = (By.XPATH, '//span[text()="确认提交"]')
+    # 操作成功提示信息
+    msg_success = (By.XPATH, '//span[text()="操作成功"]')

@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/3/16 0016 下午 6:39
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleBLoc.order_b_check_search_pageloc import Order_checkloc as loc
+from PageLocators.ModuleBLoc.Check_booking_b_loc.order_b_check_search_pageloc import Order_checkloc as loc
 
 '''B端预约订单-审核搜索-页面行为'''
 

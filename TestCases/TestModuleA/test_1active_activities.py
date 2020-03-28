@@ -5,36 +5,29 @@ Time:2020/2/21 0021 下午 8:58
 """
 import pytest
 import time
-from selenium import webdriver
+
 from TestDatas.Commons_datas import base_a_url
 from PageObjects.ModuleAPage.home_a_page import HomePage
 from PageObjects.ModuleAPage.login_a_page import Logina
 from TestDatas.ModuleADatas.login_a_datas import success_a_data
-from PageObjects.ModuleAPage.select_active_page import SelectPlat
-from PageObjects.ModuleAPage.fill_form_page import FillPage
+from PageObjects.ModuleAPage.Create_booking_page.select_active_page import SelectPlat
+from PageObjects.ModuleAPage.Create_booking_page.fill_form_page import FillPage
 from TestDatas.ModuleADatas.Booking_activities_datas import BookingData
-from PageObjects.ModuleBPage.account_select_page import AccountSelectPage
-from PageObjects.ModuleBPage.account_submit_page import AccountSubmitPage
+from PageObjects.ModuleAPage.Create_booking_page.account_select_page import AccountSelectPage
+from PageObjects.ModuleAPage.Create_booking_page.account_submit_page import AccountSubmitPage
+from PageObjects.ModuleAPage.Confirm_to_use_page.booking_list_page import BookingListPage
 
 '''A端创建预约活动'''
 
 
 @pytest.fixture
-def create_init():
+def create_init(init):
     '''测试用例前置'''
-    # 打开浏览器
-    driver = webdriver.Chrome()
-    # 设置隐性等待
-    driver.implicitly_wait(10)
-    # 最大化
-    driver.maximize_window()
     # 获取A端登录地址
-    driver.get(base_a_url)
+    init.get(base_a_url)
     # 实例化A端登录行为
-    La = Logina(driver)
-    yield driver, La
-    '''测试用例后置'''
-    driver.quit()
+    La = Logina(init)
+    yield init, La
 
 
 class Test_Activit:
@@ -114,6 +107,8 @@ class Test_Activit:
         # 查看已提交活动按钮
         ASP.view_button()
         time.sleep(1)
+        # 判断页面订单状态
+        assert BookingListPage(create_init[0]).is_exist_loc()
 
 
 if __name__ == '__main__':

@@ -4,10 +4,9 @@ Author:xixi
 Time:2020/2/20 0020 下午 10:19
 """
 import pytest
-from selenium import webdriver
 from time import sleep
-from PageObjects.ModuleAPage.login_a_page import Logina
 from TestDatas.Commons_datas import base_a_url
+from PageObjects.ModuleAPage.login_a_page import Logina
 from TestDatas.ModuleADatas.login_a_datas import success_a_data, fail_a_data, data
 from PageObjects.ModuleAPage.home_a_page import HomePage
 
@@ -15,22 +14,15 @@ from PageObjects.ModuleAPage.home_a_page import HomePage
 
 
 @pytest.fixture
-def init_a():
-    '''前置'''
-    # 打开谷歌浏览器
-    driver = webdriver.Chrome()
-    # 全屏
-    driver.maximize_window()
-    # 访问A端登录地址
-    driver.get(base_a_url)
+def init_a(init):
+    # 获取A端登录地址
+    init.get(base_a_url)
     # 实例化A端登录行为
-    la = Logina(driver)
-    yield driver, la
-    '''后置'''
-    # 退出会话
-    driver.quit()
+    la = Logina(init)
+    yield init, la
 
-# # 代表这个类下面的每一条测试用例都用这个前置
+
+# 代表这个类下面的每一条测试用例都用这个前置
 # @pytest.mark.usefixtures("init_a")
 # class TestALogin:
 #     def test_login_a_success(self, init_a):  # init_a代表返回的(driver,la)
@@ -47,11 +39,12 @@ def init_a():
 #         sleep(1)
 #         assert init_a[1].login_fail_msg() == datas["check"]
 #
-#     def test_login_a_fail_code_None(self,init_a):
+#     def test_login_a_fail_code_None(self, init_a):
 #         '''A端登录，验证码错误提示'''
 #         init_a[1].login_form(data["username"], data["password"], data["code"])
 #         sleep(1)
-#         assert init_a[1].login_code_none_msg() ==data["check"]
+#         assert init_a[1].login_code_none_msg() == data["check"]
+#
 #
 # if __name__ == '__main__':
 #     pytest.main()

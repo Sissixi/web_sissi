@@ -11,7 +11,7 @@ class Booking_listLoc:
     requirement_name = (By.XPATH, '//input[@name="requirement_name"]')
     # 查询按钮
     Query_button = (By.ID, "order_search")
-    #应约按钮
-    accept_button=(By.CLASS_NAME,"AcceptReservationBrief")
-
-
+    # 应约按钮
+    accept_button = (By.CLASS_NAME, "AcceptReservationBrief")
+    # 应约成功提示
+    accept_success_msg = (By.XPATH, '//span[text()="应约成功，订单状态变为执行中后方可执行"]')

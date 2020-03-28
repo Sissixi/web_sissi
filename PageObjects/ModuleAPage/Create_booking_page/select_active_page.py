@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/2/21 0021 下午 11:20
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleALoc.select_active_pageloc import SelectPage as loc
+from PageLocators.ModuleALoc.Create_booking_loc.select_active_pageloc import SelectPage as loc
 
 '''A端选择投放平台页面封装'''
 

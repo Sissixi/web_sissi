@@ -11,6 +11,7 @@ import time
 class BookingData:
     '''填写预约需求页面数据'''
     # 填写预约需求名字
+    # booking_name = "webzdh"
     booking_name = "webzdh" + time.strftime("%Y-%m-%d")
     # 填写预约需求描述
     description_content = "wbzdh测试"

@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/3/23 0023 下午 8:55
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleBLoc.accept_pop_up_pageloc import accept_popLoc as loc
+from PageLocators.ModuleBLoc.Accept_b_m_loc.accept_pop_up_pageloc import accept_popLoc as loc
 
 '''
 B端预约订单列表媒介-应约弹框-应约回复/价格信息页面行为

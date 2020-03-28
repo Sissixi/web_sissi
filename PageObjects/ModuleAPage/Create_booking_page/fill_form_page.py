@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/2/22 0022 上午 10:36
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleALoc.fill_form_pageloc import FillFormPageLoc as loc
+from PageLocators.ModuleALoc.Create_booking_loc.fill_form_pageloc import FillFormPageLoc as loc
 
 
 class FillPage(BasePage):

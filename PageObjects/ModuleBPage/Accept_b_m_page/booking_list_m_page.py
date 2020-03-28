@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/3/23 0023 下午 8:57
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleBLoc.booking_list_m_pageLoc import Booking_listLoc as loc
+from PageLocators.ModuleBLoc.Accept_b_m_loc.booking_list_m_pageLoc import Booking_listLoc as loc
 
 '''
 B端-V代言M-预约订单列表 （媒介）-待应约页面行为
@@ -20,3 +20,6 @@ class Booking_listM_Page(BasePage):
 
     def click_accept_button(self):
         self.click_element(loc.accept_button, "预约订单列表（媒介）_应约按钮")
+
+    def success_msg(self):
+        return self.get_text(loc.accept_success_msg, "应约成功_提示信息")

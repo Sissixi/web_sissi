@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/2/22 0022 下午 4:39
 """
 '''A端提交已选择账号页面行为'''
-from PageLocators.ModuleALoc.account_submit_pageloc import Account_submitPage as loc
+from PageLocators.ModuleALoc.Create_booking_loc.account_submit_pageloc import Account_submitPage as loc
 from Commons.basepage import BasePage
 
 

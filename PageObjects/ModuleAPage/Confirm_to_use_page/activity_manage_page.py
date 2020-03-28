@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/3/26 0026 下午 7:02
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleALoc.activity_manage_pageloc import Activity_ManageLoc as loc
+from PageLocators.ModuleALoc.Confirm_to_use_loc.activity_manage_pageloc import Activity_ManageLoc as loc
 
 '''
 A端活动管理-预约活动页面详情
@@ -21,6 +21,9 @@ class ActiveManagePage(BasePage):
 
     def click_select_button(self):
         self.click_element(loc.select_button, "预约活动tab_点击查询按钮")
+
+    def click_booking_name(self):
+        self.click_element(loc.booking_name, "预约活动tab_点击预约活动名称")
 
     def click_order_detail(self):
         self.click_element(loc.View_order_details, "预约活动tab_点击查看订单详情")

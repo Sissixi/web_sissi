@@ -463,3 +463,23 @@ class BasePage:
         except:
             do_log.exception("js处理iframe富文本格式失败")
             self._save_page_shot(img_doc)
+
+    def js_value(self, attri_value, text, img_doc, timeout=20, poll_frequency=0.5):
+        '''
+        js处理文本输入，dom中获取/输入value值
+        :param img_doc:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        '''
+        do_log.info(f"通过js语句处理文本输入")
+        try:
+            js_pha = 'var a =document.getElementsByClassName("{}")[0];a.value="{}"'.format(attri_value, text)
+            self.driver.execute_script(js_pha)
+        except:
+            do_log.exception(f"通过js语句处理文本输入失败")
+            # 截图
+            self._save_page_shot(img_doc)
+            raise
+        else:
+            do_log.info(f"通过js语句处理文本输入成功")

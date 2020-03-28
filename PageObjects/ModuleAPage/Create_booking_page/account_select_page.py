@@ -4,7 +4,7 @@ Author:xixi
 Time:2020/2/22 0022 下午 2:14
 """
 from Commons.basepage import BasePage
-from PageLocators.ModuleALoc.account_select_pageloc import Select_Account as loc
+from PageLocators.ModuleALoc.Create_booking_loc.account_select_pageloc import Select_Account as loc
 
 '''A端选择账号页面行为'''
 

@@ -4,12 +4,11 @@ Author:xixi
 Time:2020/3/16 0016 下午 5:57
 """
 import pytest
-from selenium import webdriver
 from TestDatas.Commons_datas import base_b_url
 from PageObjects.ModuleBPage.login_b_page import LoginBPage
 from PageObjects.ModuleBPage.home_b_page import Home_B_Page
-from PageObjects.ModuleBPage.order_b_check_search_page import Order_b_check_Page
-from PageObjects.ModuleBPage.booking_requirements_audit_details_page import Review_detailsPage
+from PageObjects.ModuleBPage.Check_booking_b_page.order_b_check_search_page import Order_b_check_Page
+from PageObjects.ModuleBPage.Check_booking_b_page.booking_requirements_audit_details_page import Review_detailsPage
 from TestDatas.ModuleBDatas.login_b_datas import success_b_data
 from TestDatas.ModuleADatas.Booking_activities_datas import BookingData
 from time import sleep
@@ -18,16 +17,15 @@ from time import sleep
 
 
 @pytest.fixture
-def b_process():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.get(base_b_url)
+def b_process(init):
+    # 获取地址
+    init.get(base_b_url)
     # 实例化B端登录行为
-    LBP = LoginBPage(driver)
+    LBP = LoginBPage(init)
     # 实例化B端预约审核行为
-    HBP = Home_B_Page(driver)
-    yield driver, LBP, HBP
-    driver.quit()
+    HBP = Home_B_Page(init)
+    yield init, LBP, HBP
+    init.quit()
 
 
 @pytest.mark.usefixtures("b_process")
@@ -45,6 +43,7 @@ class Test_B_check:
         Order_b_check_Page(b_process[0]).input_requirement_name(BookingData().booking_name)
         # 预约审核页面-查询输入预约需求名称
         Order_b_check_Page(b_process[0]).order_click_button()
+        sleep(1)
         # 预约审核页面-点击查询到的预约需求名称
         Order_b_check_Page(b_process[0]).click_requirement_name()
         # 切换到最新窗口
@@ -53,15 +52,20 @@ class Test_B_check:
         Review_detailsPage(b_process[0]).click_check_comment()
         Review_detailsPage(b_process[0]).confirm_bounced()
         Review_detailsPage(b_process[0]).confirm_pop_up()
-        sleep(5)
-        #使用js_操作到底部
+        sleep(1)
+        # 使用js_操作到底部
         Review_detailsPage(b_process[0]).click_handle_js()
-        sleep(5)
+        sleep(2)
         # 操作预约订单列表审核通过
         Review_detailsPage(b_process[0]).click_auide_all()
-        sleep(1)
         Review_detailsPage(b_process[0]).click_batch_auide_pass()
+        sleep(1)
+        #确定
         Review_detailsPage(b_process[0]).confirm_pop_up()
+        #再次确定
+        Review_detailsPage(b_process[0]).confirm_pop_up()
+        sleep(1)
+        assert Review_detailsPage(b_process[0]).status_is_check()
 
 
 if __name__ == '__main__':

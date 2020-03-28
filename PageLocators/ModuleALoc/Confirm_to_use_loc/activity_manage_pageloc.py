@@ -5,7 +5,7 @@ Time:2020/3/26 0026 下午 6:49
 """
 from selenium.webdriver.common.by import By
 
-'''A端活动管理'''
+'''A端活动管理-预约活动列表'''
 
 
 class Activity_ManageLoc:
@@ -17,3 +17,5 @@ class Activity_ManageLoc:
     select_button = (By.ID, "submitButton")
     # 查看订单详情按钮
     View_order_details = (By.XPATH, '//a[contains(text(),"查看订单详情")]')
+    # 点击预约名称
+    booking_name = (By.XPATH, '//a[@data-track-prop-source="name_click"]')

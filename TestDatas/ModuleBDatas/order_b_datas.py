@@ -11,3 +11,5 @@ class B_Data:
     value_text = '是'
     # 应约弹框_应约回复_内容
     replace_content="文案不调整"
+    #应约成功提示信息
+    success_msg="应约成功，订单状态变为执行中后方可执行"
