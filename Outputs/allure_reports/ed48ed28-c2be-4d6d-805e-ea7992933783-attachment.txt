@@ -1,0 +1,80 @@
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'username')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:36.003528,结束等待时间2020-04-02 18:15:36.099528,共等待时间为0:00:00.096000
+INFO     web_ceshi:basepage.py:74 B端登录_用户名输入查找元素('id', 'username')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'username')成功
+INFO     web_ceshi:basepage.py:144 B端登录_用户名输入在('id', 'username')输入文本值:hanyi
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'password')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:36.306528,结束等待时间2020-04-02 18:15:36.365528,共等待时间为0:00:00.059000
+INFO     web_ceshi:basepage.py:74 B端登录_密码输入查找元素('id', 'password')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'password')成功
+INFO     web_ceshi:basepage.py:144 B端登录_密码输入在('id', 'password')输入文本值:123456
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('tag name', 'button')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:36.526528,结束等待时间2020-04-02 18:15:36.575528,共等待时间为0:00:00.049000
+INFO     web_ceshi:basepage.py:74 B端登录_提交按钮查找元素('tag name', 'button')
+INFO     web_ceshi:basepage.py:83 查找元素('tag name', 'button')成功
+INFO     web_ceshi:basepage.py:99 B端登录_提交按钮点击('tag name', 'button')元素
+INFO     web_ceshi:basepage.py:74 B端首页_鼠标悬浮在审核元素查找元素('xpath', '//a[text()="审核"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="审核"]')成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', "//a[text()='预约需求审核']")可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:46.154528,结束等待时间2020-04-02 18:15:46.267528,共等待时间为0:00:00.113000
+INFO     web_ceshi:basepage.py:74 B端首页_点击审核预约需求审核查找元素('xpath', "//a[text()='预约需求审核']")
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', "//a[text()='预约需求审核']")成功
+INFO     web_ceshi:basepage.py:99 B端首页_点击审核预约需求审核点击('xpath', "//a[text()='预约需求审核']")元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//input[@name="requirement_name"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:49.334528,结束等待时间2020-04-02 18:15:49.421528,共等待时间为0:00:00.087000
+INFO     web_ceshi:basepage.py:74 B端预约订单审核搜索页面_输入需求名称查找元素('xpath', '//input[@name="requirement_name"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//input[@name="requirement_name"]')成功
+INFO     web_ceshi:basepage.py:144 B端预约订单审核搜索页面_输入需求名称在('xpath', '//input[@name="requirement_name"]')输入文本值:webzdh2020-04-02
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'requirement_search')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:49.826528,结束等待时间2020-04-02 18:15:49.889528,共等待时间为0:00:00.063000
+INFO     web_ceshi:basepage.py:74 B端预约订单审核搜索页面_点击查询按钮查找元素('id', 'requirement_search')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'requirement_search')成功
+INFO     web_ceshi:basepage.py:99 B端预约订单审核搜索页面_点击查询按钮点击('id', 'requirement_search')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[contains(text(),"webzdh")]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:52.613528,结束等待时间2020-04-02 18:15:52.743528,共等待时间为0:00:00.130000
+INFO     web_ceshi:basepage.py:74 B端预约订单审核搜索页面_点击查到的需求名称超链接查找元素('xpath', '//a[contains(text(),"webzdh")]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[contains(text(),"webzdh")]')成功
+INFO     web_ceshi:basepage.py:99 B端预约订单审核搜索页面_点击查到的需求名称超链接点击('xpath', '//a[contains(text(),"webzdh")]')元素
+INFO     web_ceshi:basepage.py:210 获取所有窗口列表
+INFO     web_ceshi:basepage.py:217 获取所有窗口列表成功，窗口列表为['CDwindow-EE5B3B04068936AB2D54D17A7E10CD8C', 'CDwindow-131CFDD3B911E79FEB42A97EE1184503']
+INFO     web_ceshi:basepage.py:229 切换到当前最新的窗口
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[text()="批量建议修改"][last()]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:57.234528,结束等待时间2020-04-02 18:15:58.349528,共等待时间为0:00:01.115000
+INFO     web_ceshi:basepage.py:74 预约需求审核页面预约订单列表_滚动条到底部查找元素('xpath', '//a[text()="批量建议修改"][last()]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="批量建议修改"][last()]')成功
+INFO     web_ceshi:basepage.py:462 通过js语句处理滚动条操作
+INFO     web_ceshi:basepage.py:470 通过js语句处理滚动条操作成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//input[@name="selectedAll"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:15:59.423528,结束等待时间2020-04-02 18:15:59.505528,共等待时间为0:00:00.082000
+INFO     web_ceshi:basepage.py:74 预约需求审核页面预约订单列表_全选查找元素('xpath', '//input[@name="selectedAll"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//input[@name="selectedAll"]')成功
+INFO     web_ceshi:basepage.py:99 预约需求审核页面预约订单列表_全选点击('xpath', '//input[@name="selectedAll"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[text()="批量审核通过"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:16:00.757528,结束等待时间2020-04-02 18:16:00.836528,共等待时间为0:00:00.079000
+INFO     web_ceshi:basepage.py:74 预约需求审核页面预约订单列表_点击批量审核通过按钮查找元素('xpath', '//a[text()="批量审核通过"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="批量审核通过"]')成功
+INFO     web_ceshi:basepage.py:99 预约需求审核页面预约订单列表_点击批量审核通过按钮点击('xpath', '//a[text()="批量审核通过"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="确定"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:16:01.990528,结束等待时间2020-04-02 18:16:02.067528,共等待时间为0:00:00.077000
+INFO     web_ceshi:basepage.py:74 预约需求审核页面审核通过后_点击提示弹框的确定按钮查找元素('xpath', '//span[text()="确定"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//span[text()="确定"]')成功
+INFO     web_ceshi:basepage.py:99 预约需求审核页面审核通过后_点击提示弹框的确定按钮点击('xpath', '//span[text()="确定"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="确定"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:16:02.230528,结束等待时间2020-04-02 18:16:03.455528,共等待时间为0:00:01.225000
+INFO     web_ceshi:basepage.py:74 预约需求审核页面审核通过后_点击提示弹框的确定按钮查找元素('xpath', '//span[text()="确定"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//span[text()="确定"]')成功
+INFO     web_ceshi:basepage.py:99 预约需求审核页面审核通过后_点击提示弹框的确定按钮点击('xpath', '//span[text()="确定"]')元素
+INFO     web_ceshi:basepage.py:245 预约需求审核页面预约订单列表_预约订单执行状态:检测元素('xpath', '//table[@id="report"]/tbody/tr/td[11]/text()[last()]')存在且可见于页面
+ERROR    web_ceshi:basepage.py:249 20秒元素在当前页面不可见
+Traceback (most recent call last):
+  File "D:\web_sissi1\Commons\basepage.py", line 247, in check_ele_visiable
+    WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(loc))
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     web_ceshi:basepage.py:57 截图文件存放在预约需求审核页面预约订单列表_预约订单执行状态_2020-04-02 18_16_28.png中
+INFO     web_ceshi:basepage.py:65 保存截图成功

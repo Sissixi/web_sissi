@@ -6,7 +6,7 @@ Time:2020/2/23 0023 下午 1:45
 from selenium.webdriver.common.by import By
 
 '''
-B端登录页面元素定位
+B端及NB端登录页面元素定位
 '''
 
 class LoginBLoc:

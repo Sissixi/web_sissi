@@ -1,0 +1,72 @@
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'username')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:36.591528,结束等待时间2020-04-02 19:10:36.702528,共等待时间为0:00:00.111000
+INFO     web_ceshi:basepage.py:74 B端登录_用户名输入查找元素('id', 'username')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'username')成功
+INFO     web_ceshi:basepage.py:144 B端登录_用户名输入在('id', 'username')输入文本值:hanyi
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'password')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:36.891528,结束等待时间2020-04-02 19:10:36.957528,共等待时间为0:00:00.066000
+INFO     web_ceshi:basepage.py:74 B端登录_密码输入查找元素('id', 'password')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'password')成功
+INFO     web_ceshi:basepage.py:144 B端登录_密码输入在('id', 'password')输入文本值:123456
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('tag name', 'button')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:37.139528,结束等待时间2020-04-02 19:10:37.196528,共等待时间为0:00:00.057000
+INFO     web_ceshi:basepage.py:74 B端登录_提交按钮查找元素('tag name', 'button')
+INFO     web_ceshi:basepage.py:83 查找元素('tag name', 'button')成功
+INFO     web_ceshi:basepage.py:99 B端登录_提交按钮点击('tag name', 'button')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//i[@class="anticon anticon-right"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:37.405528,结束等待时间2020-04-02 19:10:38.584528,共等待时间为0:00:01.179000
+INFO     web_ceshi:basepage.py:74 nb首页_点击左下角折叠按钮查找元素('xpath', '//i[@class="anticon anticon-right"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//i[@class="anticon anticon-right"]')成功
+INFO     web_ceshi:basepage.py:99 nb首页_点击左下角折叠按钮点击('xpath', '//i[@class="anticon anticon-right"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="质检管理"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:38.930528,结束等待时间2020-04-02 19:10:39.103528,共等待时间为0:00:00.173000
+INFO     web_ceshi:basepage.py:74 nb首页_点击质检管理查找元素('xpath', '//span[text()="质检管理"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//span[text()="质检管理"]')成功
+INFO     web_ceshi:basepage.py:99 nb首页_点击质检管理点击('xpath', '//span[text()="质检管理"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('id', '质检管理$Menu')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:39.367528,结束等待时间2020-04-02 19:10:40.012528,共等待时间为0:00:00.645000
+INFO     web_ceshi:basepage.py:74 nb首页_点击nb首页_点击质检管理查找元素('id', '质检管理$Menu')
+INFO     web_ceshi:basepage.py:83 查找元素('id', '质检管理$Menu')成功
+INFO     web_ceshi:basepage.py:99 nb首页_点击nb首页_点击质检管理点击('id', '质检管理$Menu')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="ant-layout-sider-trigger"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:42.310528,结束等待时间2020-04-02 19:10:42.404528,共等待时间为0:00:00.094000
+INFO     web_ceshi:basepage.py:74 nb首页_关闭左下角折叠按钮查找元素('xpath', '//div[@class="ant-layout-sider-trigger"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="ant-layout-sider-trigger"]')成功
+INFO     web_ceshi:basepage.py:99 nb首页_关闭左下角折叠按钮点击('xpath', '//div[@class="ant-layout-sider-trigger"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('class name', 'resetFilter')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:42.645528,结束等待时间2020-04-02 19:10:42.945528,共等待时间为0:00:00.300000
+INFO     web_ceshi:basepage.py:74 点击重置按钮查找元素('class name', 'resetFilter')
+INFO     web_ceshi:basepage.py:83 查找元素('class name', 'resetFilter')成功
+INFO     web_ceshi:basepage.py:99 点击重置按钮点击('class name', 'resetFilter')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//input[@id="weibo_name"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:45.126528,结束等待时间2020-04-02 19:10:45.206528,共等待时间为0:00:00.080000
+INFO     web_ceshi:basepage.py:74 nb质检列表_输入账号名称查找元素('xpath', '//input[@id="weibo_name"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//input[@id="weibo_name"]')成功
+INFO     web_ceshi:basepage.py:144 nb质检列表_输入账号名称在('xpath', '//input[@id="weibo_name"]')输入文本值:我是娜扎
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="ant-spin-container"]//button[@class="ant-btn ant-btn-primary"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:45.664528,结束等待时间2020-04-02 19:10:45.726528,共等待时间为0:00:00.062000
+INFO     web_ceshi:basepage.py:74 nb质检列表_搜索查找元素('xpath', '//div[@class="ant-spin-container"]//button[@class="ant-btn ant-btn-primary"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="ant-spin-container"]//button[@class="ant-btn ant-btn-primary"]')成功
+INFO     web_ceshi:basepage.py:99 nb质检列表_搜索点击('xpath', '//div[@class="ant-spin-container"]//button[@class="ant-btn ant-btn-primary"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//button[@class="ant-btn batchTips ant-btn-default"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 19:10:47.955528,结束等待时间2020-04-02 19:10:48.082528,共等待时间为0:00:00.127000
+INFO     web_ceshi:basepage.py:74 nb质检列表_等待批量质检合格元素处理可见查找元素('xpath', '//button[@class="ant-btn batchTips ant-btn-default"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//button[@class="ant-btn batchTips ant-btn-default"]')成功
+INFO     web_ceshi:basepage.py:462 通过js语句处理滚动条操作
+INFO     web_ceshi:basepage.py:470 通过js语句处理滚动条操作成功
+INFO     web_ceshi:basepage.py:74 nb质检列表_鼠标悬停处理按钮查找元素('xpath', '//div[@class="ant-table-body-inner"]//tbody[@class="ant-table-tbody"]/tr[last()]//button')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="ant-table-body-inner"]//tbody[@class="ant-table-tbody"]/tr[last()]//button')成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', "//span[text()='回填执行链接无效']/preceding-sibling::span")可见
+ERROR    web_ceshi:basepage.py:38 等待元素('xpath', "//span[text()='回填执行链接无效']/preceding-sibling::span")可见失败
+Traceback (most recent call last):
+  File "D:\web_sissi1\Commons\basepage.py", line 36, in wait_ele_visable
+    WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(loc))
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     web_ceshi:basepage.py:57 截图文件存放在nb质检页面_选择执行结果不合格原因_2020-04-02 19_11_25.png中
+INFO     web_ceshi:basepage.py:65 保存截图成功

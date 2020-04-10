@@ -8,7 +8,6 @@ import pytest
 from selenium import webdriver
 
 
-
 @pytest.fixture
 def init():
     '''测试用例前置'''
@@ -20,6 +19,5 @@ def init():
     driver.maximize_window()
     yield driver
     '''测试用例后置'''
-    #退出浏览器，关闭会话
+    # 退出浏览器，关闭会话
     driver.quit()
-

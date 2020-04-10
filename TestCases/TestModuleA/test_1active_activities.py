@@ -31,6 +31,7 @@ def create_init(init):
 
 
 class Test_Activit:
+    @pytest.mark.process
     @pytest.mark.usefixtures("create_init")
     def test_create_activit(self, create_init):
         '''

@@ -1,7 +1,22 @@
 logs:
-  logsname : web_ceshi
-  logslevel : DEBUG
-  shlevel : DEBUG
-  formated : logging.Formatter("%(asctime)s-[%(filename)s--->line:%(lineno)d]-%(name)s:%(levelname)s:%(message)s")
-  fl_name : testlogs.log
-  fl_leval : DEBUG
+  logsname: web_ceshi
+  logslevel: DEBUG
+  shlevel: DEBUG
+  formated: logging.Formatter("%(asctime)s-[%(filename)s--->line:%(lineno)d]-%(name)s:%(levelname)s:%(message)s")
+  fl_name: testlogs.log
+  fl_leval: DEBUG
+mysql:
+  host: "192.168.200.26"
+  user: "dbuser"
+  password: "dbpasswd"
+  database: "babysitter"
+  port: 3306
+  #执行待添加数据截图sql语句
+  sql_AddData_Screenshot: 'UPDATE selfmedia_execution_backfill_result SET created_at = date_sub(now(),INTERVAL 3 DAY) WHERE reservation_order_id IN (%s);'
+  #执行获取待添加数据截图的最大订单id
+  get_sql_order_id: 'SELECT * FROM  selfmedia_execution_backfill_result ORDER BY reservation_order_id DESC LIMIT 0,1;'
+  #修改成预约待质检的状态：
+  #修改预约订单的执行完成时间（执行完成时间前推72小时)
+  order_completed_time: 'UPDATE selfmedia_reservation_order SET execution_completed_time = unix_timestamp(date_sub(now(),INTERVAL 72 HOUR)) WHERE id IN (%s);'
+  #修改预约订单的上传数据数据截图时间（数据截图时间前推6小时）
+  screenshot_time: 'UPDATE selfmedia_execution_backfill_data_screenshot SET created_at = date_sub(now(),INTERVAL 6 HOUR) WHERE reservation_order_id IN (%s);'

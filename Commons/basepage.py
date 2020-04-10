@@ -11,10 +11,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from Commons.handle_logs import do_log
 from Commons.handle_Path import SCREEN_PATH
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
+import win32con, win32gui
 
 
 class BasePage:
@@ -279,29 +278,6 @@ class BasePage:
             do_log.exception("返回到主iframe失败")
             self._save_page_shot(img_doc)
 
-    def js_time(self, loc, timevalue, img_doc, timeout=20, poll_frequency=0.5):
-        '''
-        js处理日历控件
-        :param img_doc:
-        :param timeout:
-        :param poll_frequency:
-        :return:
-        '''
-        # 1.等待元素可见
-        self.wait_ele_visable(loc, img_doc)
-        # 2.找到可见元素
-        self.get_element(loc, img_doc)
-        do_log.info(f"通过js语句修改元素{loc}的时间")
-        try:
-            js_pha = f'var a=document.getElementById({loc});a.value="{timevalue}";'
-            self.driver.execute_script(js_pha)
-        except:
-            do_log.exception(f"通过js语句修改元素{loc}失败")
-            # 截图
-            self._save_page_shot(img_doc)
-        else:
-            do_log.info(f"通过js语句修改元素{loc}成功")
-
     def input_key_text(self, loc, keymethod, img_doc, timeout=20, poll_frequency=0.5):
         '''
         鼠标操作--输入文本
@@ -392,9 +368,26 @@ class BasePage:
             self._save_page_shot(img_doc)
             raise
 
-    def mouse_drag_and_drop_by_offset(self, loc, img_doc, timeout=20, poll_frequency=0.5):
-        '''鼠标操作拖拽'''
-        pass
+    def click_mouse_action(self, loc, img_doc,click=None,timeout=20, poll_frequency=0.5):
+        '''鼠标操作-鼠标悬浮并点击'''
+        try:
+            # 1.实例化action_chains
+            ac = ActionChains(self.driver)
+            time.sleep(1)
+            # 2.将要操作的动作放在链表中
+            ele = self.get_element(loc, img_doc)
+            time.sleep(1)
+            # 设置鼠标悬浮
+            ac.move_to_element(ele)
+            # 鼠标即悬浮又点击
+            if click:
+                ac.move_to_element(ele).click(ele)
+            # 3.调用perform()
+            ac.perform()
+        except:
+            do_log.exception("设置鼠标悬浮并点击失败")
+            self._save_page_shot(img_doc)
+            raise
 
     def drop_down_box(self, loc, img_doc, timeout=20, poll_frequency=0.5):
         '''下拉框操作_实例化select类'''
@@ -424,8 +417,44 @@ class BasePage:
             self._save_page_shot(img_doc)
             raise
 
+    def handle_keys_DELETE(self, loc, img_doc, timeout=20, poll_frequency=0.5):
+        '''键盘操作--键盘删除'''
+        # 1.等待元素可见
+        self.wait_ele_visable(loc, img_doc)
+        # 2.找到可见元素
+        element = self.get_element(loc, img_doc)
+        try:
+            element.send_keys(Keys.DELETE)
+        except:
+            do_log.exception("键盘操作--键盘删除失败")
+            # 截图
+            self._save_page_shot(img_doc)
+
+    def upload_file(self, filepath, browser_type="chrome"):
+        '''文件上传操作'''
+        if browser_type == "chrome":
+            title = "打开"
+        else:
+            title = ""
+        # 找元素
+        # 一级窗口“#32770”,"打开"
+        dialog = win32gui.FindWindow("#32770", title)
+        # 二级
+        ComboBoxEx32 = win32gui.FindWindowEx(dialog, 0, "ComboBoxEx32", None)
+        # 三级
+        comboBox = win32gui.FindWindowEx(ComboBoxEx32, 0, "comboBox", None)
+        # 编辑按钮
+        edit = win32gui.FindWindowEx(comboBox, 0, 'Edit', None)
+        # 按钮操作
+        button = win32gui.FindWindowEx(dialog, 0, "Button", "打开(&O)")
+        # 向编辑框输入文件路径
+        # 发送文件路径
+        win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, filepath)
+        # 点击打开按钮
+        win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)
+
     def js_scrollIntoView(self, loc, img_doc, timeout=20, poll_frequency=0.5):
-        '''js处理滚动条操作'''
+        '''js处理滚动条操作,移动到元素element对象的底端与当前窗口的底部对齐'''
         # 1.等待元素可见
         self.wait_ele_visable(loc, img_doc)
         # 2.找到可见元素
@@ -440,19 +469,6 @@ class BasePage:
         else:
             do_log.info(f"通过js语句处理滚动条操作成功")
 
-    def handle_keys_DELETE(self, loc, img_doc, timeout=20, poll_frequency=0.5):
-        '''键盘操作--键盘删除'''
-        # 1.等待元素可见
-        self.wait_ele_visable(loc, img_doc)
-        # 2.找到可见元素
-        element = self.get_element(loc, img_doc)
-        try:
-            element.send_keys(Keys.DELETE)
-        except:
-            do_log.exception("键盘操作--键盘删除失败")
-            # 截图
-            self._save_page_shot(img_doc)
-
     def js_iframe(self, js_ID, text, img_doc, timeout=20, poll_frequency=0.5):
         '''js处理iframe富文本格式问题'''
         try:
@@ -466,6 +482,7 @@ class BasePage:
 
     def js_value(self, attri_value, text, img_doc, timeout=20, poll_frequency=0.5):
         '''
+        通过getElementByClassName
         js处理文本输入，dom中获取/输入value值
         :param img_doc:
         :param timeout:
@@ -483,3 +500,91 @@ class BasePage:
             raise
         else:
             do_log.info(f"通过js语句处理文本输入成功")
+
+    def js_time(self, loc, timevalue, img_doc, timeout=20, poll_frequency=0.5):
+        '''
+        js处理日历控件,通过getElementById
+        :param img_doc:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        '''
+        # 1.等待元素可见
+        self.wait_ele_visable(loc, img_doc)
+        # 2.找到可见元素
+        self.get_element(loc, img_doc)
+        do_log.info(f"通过js语句修改元素{loc}的时间")
+        try:
+            js_pha = f'var a=document.getElementById({loc});a.value="{timevalue}";'
+            self.driver.execute_script(js_pha)
+        except:
+            do_log.exception(f"通过js语句修改元素{loc}失败")
+            # 截图
+            self._save_page_shot(img_doc)
+        else:
+            do_log.info(f"通过js语句修改元素{loc}成功")
+
+    def js_bottom(self, img_doc, timeout=20, poll_frequency=0.5):
+        '''js处理滚动条操作,移动到页面底部'''
+        do_log.info(f"通过js语句处理滚动条移动到页面底部操作")
+        try:
+            self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+        except:
+            do_log.exception(f"通过js语句处理滚动条移动到页面底部操作失败")
+            # 截图
+            self._save_page_shot(img_doc)
+        else:
+            do_log.info(f"通过js语句处理滚动条移动到页面底部操作成功")
+
+    def js_alter(self, attribute, img_doc, num=None, value=None, text=None, timeout=20, poll_frequency=0.5):
+        '''
+        js修改属性值，dom中获取/输入value值
+        :param attribute:属性名
+        :param num:第几个元素
+        :param value:修改后的值
+        :param text:修改元素内容
+        :param img_doc:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        '''
+        do_log.info(f"通过js语句修改属性值")
+        try:
+            js_pha = 'var a =document.getElementsByClassName("{}")[{}];a.title="{}";a.innerText="{}";'.format(attribute,
+                                                                                                              num,
+                                                                                                              value,
+                                                                                                              text)
+            self.driver.execute_script(js_pha)
+        except:
+            do_log.exception(f"通过js修改属性值输入失败")
+            # 截图
+            self._save_page_shot(img_doc)
+            raise
+        else:
+            do_log.info(f"通过js修改属性值成功")
+
+    def js_all_alter(self, img_doc, attribute, attribute2, num=None, value=None, text=None, timeout=20,
+                     poll_frequency=0.5):
+        '''
+        1个js同时修改多个js属性值，dom中获取/输入value值
+        :param attribute:属性名
+        :param num:第几个元素
+        :param value:修改后的值
+        :param text:修改元素内容
+        :param img_doc:
+        :param timeout:
+        :param poll_frequency:
+        :return:
+        '''
+        do_log.info(f"通过js语句修改属性值")
+        try:
+            js_pha = f'var s=document.getElementsByClassName("{attribute}")[{num}].innerText="{text}";' \
+                     f'var t=document.getElementsByClassName("{attribute2}")[{num}].title="{value}";'
+            self.driver.execute_script(js_pha)
+        except:
+            do_log.exception(f"通过js修改属性值输入失败")
+            # 截图
+            self._save_page_shot(img_doc)
+            raise
+        else:
+            do_log.info(f"通过js修改属性值成功")

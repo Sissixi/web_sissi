@@ -32,12 +32,12 @@ def b_accept_process(init):
     # 实例化B端弹框页面行为
     ap = Accept_pop_page(init)
     yield init, LBP, HBP, BLP, ap
-    '''后置'''
-    init.quit()
+
 
 
 @pytest.mark.usefixtures("b_accept_process")
 class Test_Accept_process:
+    @pytest.mark.process
     def test_b_accept_process(self, b_accept_process):
         '''B端应约'''
         # 调用B端登录行为

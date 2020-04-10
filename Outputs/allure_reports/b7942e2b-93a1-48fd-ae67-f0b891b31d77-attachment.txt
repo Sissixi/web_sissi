@@ -1,0 +1,158 @@
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'username')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:16:47.623528,结束等待时间2020-04-02 18:16:47.714528,共等待时间为0:00:00.091000
+INFO     web_ceshi:basepage.py:74 B端登录_用户名输入查找元素('id', 'username')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'username')成功
+INFO     web_ceshi:basepage.py:144 B端登录_用户名输入在('id', 'username')输入文本值:hanyi
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'password')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:16:47.951528,结束等待时间2020-04-02 18:16:48.029528,共等待时间为0:00:00.078000
+INFO     web_ceshi:basepage.py:74 B端登录_密码输入查找元素('id', 'password')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'password')成功
+INFO     web_ceshi:basepage.py:144 B端登录_密码输入在('id', 'password')输入文本值:123456
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('tag name', 'button')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:16:48.258528,结束等待时间2020-04-02 18:16:48.324528,共等待时间为0:00:00.066000
+INFO     web_ceshi:basepage.py:74 B端登录_提交按钮查找元素('tag name', 'button')
+INFO     web_ceshi:basepage.py:83 查找元素('tag name', 'button')成功
+INFO     web_ceshi:basepage.py:99 B端登录_提交按钮点击('tag name', 'button')元素
+INFO     web_ceshi:basepage.py:74 B端首页_鼠标悬浮在V代言M元素查找元素('xpath', '//a[text()="V代言M"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="V代言M"]')成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[text()="预约订单列表（M）"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:05.972528,结束等待时间2020-04-02 18:17:06.056528,共等待时间为0:00:00.084000
+INFO     web_ceshi:basepage.py:74 B端首页_点击V代言M下的预约订单列表（M）查找元素('xpath', '//a[text()="预约订单列表（M）"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="预约订单列表（M）"]')成功
+INFO     web_ceshi:basepage.py:99 B端首页_点击V代言M下的预约订单列表（M）点击('xpath', '//a[text()="预约订单列表（M）"]')元素
+INFO     web_ceshi:basepage.py:529 通过js语句处理滚动条移动到页面底部操作
+INFO     web_ceshi:basepage.py:537 通过js语句处理滚动条移动到页面底部操作成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//ul[@id="tabChangeBox"]/li[1]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:22.620528,结束等待时间2020-04-02 18:17:22.813528,共等待时间为0:00:00.193000
+INFO     web_ceshi:basepage.py:74 预约订单媒介_点击全部订单tab查找元素('xpath', '//ul[@id="tabChangeBox"]/li[1]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//ul[@id="tabChangeBox"]/li[1]')成功
+INFO     web_ceshi:basepage.py:99 预约订单媒介_点击全部订单tab点击('xpath', '//ul[@id="tabChangeBox"]/li[1]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//input[@name="requirement_name"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:31.958528,结束等待时间2020-04-02 18:17:32.040528,共等待时间为0:00:00.082000
+INFO     web_ceshi:basepage.py:74 预约订单列表（媒介）_输入需求名称进行搜索查找元素('xpath', '//input[@name="requirement_name"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//input[@name="requirement_name"]')成功
+INFO     web_ceshi:basepage.py:144 预约订单列表（媒介）_输入需求名称进行搜索在('xpath', '//input[@name="requirement_name"]')输入文本值:webzdh2020-04-02
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'order_search')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:32.735528,结束等待时间2020-04-02 18:17:32.803528,共等待时间为0:00:00.068000
+INFO     web_ceshi:basepage.py:74 预约订单列表（媒介）_查询查找元素('id', 'order_search')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'order_search')成功
+INFO     web_ceshi:basepage.py:99 预约订单列表（媒介）_查询点击('id', 'order_search')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[@class="addExecutionResult"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:37.940528,结束等待时间2020-04-02 18:17:38.035528,共等待时间为0:00:00.095000
+INFO     web_ceshi:basepage.py:74 预约订单媒介_点击添加执行结果查找元素('xpath', '//a[@class="addExecutionResult"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[@class="addExecutionResult"]')成功
+INFO     web_ceshi:basepage.py:99 预约订单媒介_点击添加执行结果点击('xpath', '//a[@class="addExecutionResult"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:39.552528,结束等待时间2020-04-02 18:17:40.243528,共等待时间为0:00:00.691000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_全选查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_全选点击('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:40.582528,结束等待时间2020-04-02 18:17:40.668528,共等待时间为0:00:00.086000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_添加执行链接查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')成功
+INFO     web_ceshi:basepage.py:144 添加执行结果弹框_添加执行链接在('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')输入文本值:https://weibo.com/1618051664/IAYJfhprF?type=comment
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:41.641528,结束等待时间2020-04-02 18:17:41.703528,共等待时间为0:00:00.062000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_点击上传按钮查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_点击上传按钮点击('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:17:49.311528,结束等待时间2020-04-02 18:17:49.415528,共等待时间为0:00:00.104000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_批量提交查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_批量提交点击('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="确定"]')可见
+ERROR    web_ceshi:basepage.py:38 等待元素('xpath', '//span[text()="确定"]')可见失败
+Traceback (most recent call last):
+  File "D:\web_sissi1\Commons\basepage.py", line 36, in wait_ele_visable
+    WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located(loc))
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     web_ceshi:basepage.py:57 截图文件存放在添加执行结果弹框_确定按钮_2020-04-02 18_18_10.png中
+INFO     web_ceshi:basepage.py:65 保存截图成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'username')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:18:30.495528,结束等待时间2020-04-02 18:18:30.624528,共等待时间为0:00:00.129000
+INFO     web_ceshi:basepage.py:74 B端登录_用户名输入查找元素('id', 'username')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'username')成功
+INFO     web_ceshi:basepage.py:144 B端登录_用户名输入在('id', 'username')输入文本值:hanyi
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'password')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:18:30.879528,结束等待时间2020-04-02 18:18:30.956528,共等待时间为0:00:00.077000
+INFO     web_ceshi:basepage.py:74 B端登录_密码输入查找元素('id', 'password')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'password')成功
+INFO     web_ceshi:basepage.py:144 B端登录_密码输入在('id', 'password')输入文本值:123456
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('tag name', 'button')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:18:31.195528,结束等待时间2020-04-02 18:18:31.269528,共等待时间为0:00:00.074000
+INFO     web_ceshi:basepage.py:74 B端登录_提交按钮查找元素('tag name', 'button')
+INFO     web_ceshi:basepage.py:83 查找元素('tag name', 'button')成功
+INFO     web_ceshi:basepage.py:99 B端登录_提交按钮点击('tag name', 'button')元素
+INFO     web_ceshi:basepage.py:74 B端首页_鼠标悬浮在V代言M元素查找元素('xpath', '//a[text()="V代言M"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="V代言M"]')成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[text()="预约订单列表（M）"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:18:47.327528,结束等待时间2020-04-02 18:18:47.404528,共等待时间为0:00:00.077000
+INFO     web_ceshi:basepage.py:74 B端首页_点击V代言M下的预约订单列表（M）查找元素('xpath', '//a[text()="预约订单列表（M）"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[text()="预约订单列表（M）"]')成功
+INFO     web_ceshi:basepage.py:99 B端首页_点击V代言M下的预约订单列表（M）点击('xpath', '//a[text()="预约订单列表（M）"]')元素
+INFO     web_ceshi:basepage.py:529 通过js语句处理滚动条移动到页面底部操作
+INFO     web_ceshi:basepage.py:537 通过js语句处理滚动条移动到页面底部操作成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//ul[@id="tabChangeBox"]/li[1]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:03.184528,结束等待时间2020-04-02 18:19:03.270528,共等待时间为0:00:00.086000
+INFO     web_ceshi:basepage.py:74 预约订单媒介_点击全部订单tab查找元素('xpath', '//ul[@id="tabChangeBox"]/li[1]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//ul[@id="tabChangeBox"]/li[1]')成功
+INFO     web_ceshi:basepage.py:99 预约订单媒介_点击全部订单tab点击('xpath', '//ul[@id="tabChangeBox"]/li[1]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//input[@name="requirement_name"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:10.711528,结束等待时间2020-04-02 18:19:10.866528,共等待时间为0:00:00.155000
+INFO     web_ceshi:basepage.py:74 预约订单列表（媒介）_输入需求名称进行搜索查找元素('xpath', '//input[@name="requirement_name"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//input[@name="requirement_name"]')成功
+INFO     web_ceshi:basepage.py:144 预约订单列表（媒介）_输入需求名称进行搜索在('xpath', '//input[@name="requirement_name"]')输入文本值:webzdh2020-04-02
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'order_search')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:11.438528,结束等待时间2020-04-02 18:19:11.484528,共等待时间为0:00:00.046000
+INFO     web_ceshi:basepage.py:74 预约订单列表（媒介）_查询查找元素('id', 'order_search')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'order_search')成功
+INFO     web_ceshi:basepage.py:99 预约订单列表（媒介）_查询点击('id', 'order_search')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//a[@class="addExecutionResult"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:16.278528,结束等待时间2020-04-02 18:19:16.350528,共等待时间为0:00:00.072000
+INFO     web_ceshi:basepage.py:74 预约订单媒介_点击添加执行结果查找元素('xpath', '//a[@class="addExecutionResult"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//a[@class="addExecutionResult"]')成功
+INFO     web_ceshi:basepage.py:99 预约订单媒介_点击添加执行结果点击('xpath', '//a[@class="addExecutionResult"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:17.678528,结束等待时间2020-04-02 18:19:18.203528,共等待时间为0:00:00.525000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_全选查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_全选点击('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="checkbox"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:18.532528,结束等待时间2020-04-02 18:19:18.613528,共等待时间为0:00:00.081000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_添加执行链接查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')成功
+INFO     web_ceshi:basepage.py:144 添加执行结果弹框_添加执行链接在('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//input[@type="text"]')输入文本值:https://weibo.com/1618051664/IAYJfhprF?type=comment
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:19.627528,结束等待时间2020-04-02 18:19:19.689528,共等待时间为0:00:00.062000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_点击上传按钮查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_点击上传按钮点击('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="上传"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:27.163528,结束等待时间2020-04-02 18:19:27.245528,共等待时间为0:00:00.082000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_批量提交查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_批量提交点击('xpath', '//div[@class="weiboyiWindow absoluteCenter"]//span[text()="批量提交"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="确定"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:27.510528,结束等待时间2020-04-02 18:19:27.573528,共等待时间为0:00:00.063000
+INFO     web_ceshi:basepage.py:74 添加执行结果弹框_确定按钮查找元素('xpath', '//span[text()="确定"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//span[text()="确定"]')成功
+INFO     web_ceshi:basepage.py:99 添加执行结果弹框_确定按钮点击('xpath', '//span[text()="确定"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="执行结果提交成功"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:19:27.793528,结束等待时间2020-04-02 18:19:29.371528,共等待时间为0:00:01.578000
+INFO     web_ceshi:basepage.py:74 添加执行结果_成功提示查找元素('xpath', '//span[text()="执行结果提交成功"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//span[text()="执行结果提交成功"]')成功
+INFO     web_ceshi:basepage.py:168 添加执行结果_成功提示获取元素('xpath', '//span[text()="执行结果提交成功"]')文本值
+INFO     web_ceshi:basepage.py:176 元素文本值为执行结果提交成功

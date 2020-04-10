@@ -15,3 +15,9 @@ class Booking_listLoc:
     accept_button = (By.CLASS_NAME, "AcceptReservationBrief")
     # 应约成功提示
     accept_success_msg = (By.XPATH, '//span[text()="应约成功，订单状态变为执行中后方可执行"]')
+    # 全部订单tab
+    all_order = (By.XPATH, '//ul[@id="tabChangeBox"]/li[1]')
+    # 添加执行结果
+    add_result = (By.XPATH, '//a[@class="addExecutionResult"]')
+    # 添加修改数据截图
+    add_screenshot = (By.XPATH, '//a[@class="addDataScreenshot"]')

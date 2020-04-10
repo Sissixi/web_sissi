@@ -6,7 +6,7 @@ Time:2020/2/23 0023 下午 1:49
 from Commons.basepage import BasePage
 from PageLocators.ModuleBLoc.login_b_pageloc import LoginBLoc as loc
 
-'''B端页面登录行为'''
+'''B端及NB端页面登录行为'''
 
 class LoginBPage(BasePage):
     def loginB(self, username, pawd):

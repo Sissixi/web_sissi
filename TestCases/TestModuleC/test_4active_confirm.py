@@ -33,6 +33,7 @@ def a_confirm(init):
 
 
 class Test_a_active_confirm:
+    @pytest.mark.process
     def test_active_confirm_process(self, a_confirm):
         # 点击首页——活动管理
         HomePage(a_confirm[0]).click_active_manage()

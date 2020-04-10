@@ -1,0 +1,59 @@
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'username')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:21.136528,结束等待时间2020-04-02 18:24:21.321528,共等待时间为0:00:00.185000
+INFO     web_ceshi:basepage.py:74 B端登录_用户名输入查找元素('id', 'username')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'username')成功
+INFO     web_ceshi:basepage.py:144 B端登录_用户名输入在('id', 'username')输入文本值:hanyi
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('id', 'password')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:21.832528,结束等待时间2020-04-02 18:24:21.947528,共等待时间为0:00:00.115000
+INFO     web_ceshi:basepage.py:74 B端登录_密码输入查找元素('id', 'password')
+INFO     web_ceshi:basepage.py:83 查找元素('id', 'password')成功
+INFO     web_ceshi:basepage.py:144 B端登录_密码输入在('id', 'password')输入文本值:123456
+INFO     web_ceshi:basepage.py:153 输入文本值成功
+INFO     web_ceshi:basepage.py:32 等待元素('tag name', 'button')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:22.313528,结束等待时间2020-04-02 18:24:22.387528,共等待时间为0:00:00.074000
+INFO     web_ceshi:basepage.py:74 B端登录_提交按钮查找元素('tag name', 'button')
+INFO     web_ceshi:basepage.py:83 查找元素('tag name', 'button')成功
+INFO     web_ceshi:basepage.py:99 B端登录_提交按钮点击('tag name', 'button')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//i[@class="anticon anticon-right"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:22.634528,结束等待时间2020-04-02 18:24:23.422528,共等待时间为0:00:00.788000
+INFO     web_ceshi:basepage.py:74 nb首页_点击左下角折叠按钮查找元素('xpath', '//i[@class="anticon anticon-right"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//i[@class="anticon anticon-right"]')成功
+INFO     web_ceshi:basepage.py:99 nb首页_点击左下角折叠按钮点击('xpath', '//i[@class="anticon anticon-right"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//span[text()="质检管理"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:23.603528,结束等待时间2020-04-02 18:24:23.778528,共等待时间为0:00:00.175000
+INFO     web_ceshi:basepage.py:74 nb首页_点击质检管理查找元素('xpath', '//span[text()="质检管理"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//span[text()="质检管理"]')成功
+INFO     web_ceshi:basepage.py:99 nb首页_点击质检管理点击('xpath', '//span[text()="质检管理"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('id', '质检管理$Menu')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:23.951528,结束等待时间2020-04-02 18:24:24.532528,共等待时间为0:00:00.581000
+INFO     web_ceshi:basepage.py:74 nb首页_点击nb首页_点击质检管理查找元素('id', '质检管理$Menu')
+INFO     web_ceshi:basepage.py:83 查找元素('id', '质检管理$Menu')成功
+INFO     web_ceshi:basepage.py:99 nb首页_点击nb首页_点击质检管理点击('id', '质检管理$Menu')元素
+INFO     web_ceshi:basepage.py:32 等待元素('xpath', '//div[@class="ant-layout-sider-trigger"]')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:26.779528,结束等待时间2020-04-02 18:24:26.814528,共等待时间为0:00:00.035000
+INFO     web_ceshi:basepage.py:74 nb首页_关闭左下角折叠按钮查找元素('xpath', '//div[@class="ant-layout-sider-trigger"]')
+INFO     web_ceshi:basepage.py:83 查找元素('xpath', '//div[@class="ant-layout-sider-trigger"]')成功
+INFO     web_ceshi:basepage.py:99 nb首页_关闭左下角折叠按钮点击('xpath', '//div[@class="ant-layout-sider-trigger"]')元素
+INFO     web_ceshi:basepage.py:32 等待元素('class name', 'resetFilter')可见
+INFO     web_ceshi:basepage.py:44 起始等待时间2020-04-02 18:24:26.985528,结束等待时间2020-04-02 18:24:27.235528,共等待时间为0:00:00.250000
+INFO     web_ceshi:basepage.py:74 点击重置按钮查找元素('class name', 'resetFilter')
+INFO     web_ceshi:basepage.py:83 查找元素('class name', 'resetFilter')成功
+INFO     web_ceshi:basepage.py:99 点击重置按钮点击('class name', 'resetFilter')元素
+ERROR    web_ceshi:basepage.py:103 点击重置按钮点击('class name', 'resetFilter')元素失败
+Traceback (most recent call last):
+  File "D:\web_sissi1\Commons\basepage.py", line 101, in click_element
+    ele.click()
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "F:\pythonxi\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class="resetFilter">...</a> is not clickable at point (624, 435). Other element would receive the click: <div class="ant-spin-nested-loading">...</div>
+  (Session info: chrome=79.0.3945.117)
+
+INFO     web_ceshi:basepage.py:57 截图文件存放在点击重置按钮_2020-04-02 18_24_27.png中
+INFO     web_ceshi:basepage.py:65 保存截图成功

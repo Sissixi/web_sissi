@@ -18,4 +18,6 @@ REPORTS = os.path.join(BASE_PATH, 'Outputs/reports')
 SCREEN_PATH = os.path.join(BASE_PATH, 'Outputs/pageshots')
 # 获取配置文件路径
 YAML_PATH = os.path.join(BASE_PATH, 'Commons/testcase.yaml')
+#获取图片路径
+picture_path=os.path.join(BASE_PATH,'QQ.jpg')
 

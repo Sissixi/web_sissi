@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eeab82d-0270-4ae2-9e62-c67f71f5ed03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Confirm_to_use_loc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Confirm_to_use_loc/booking_list_pageloc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Accept_b_m_loc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Check_booking_b_loc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Confirm_to_use_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Confirm_to_use_page/booking_a_details_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Confirm_to_use_page/booking_list_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Create_booking_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Accept_b_m_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Check_booking_b_page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Check_booking_b_page/booking_requirements_audit_details_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleC/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_4active_confirm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_5_b_booking_pass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestDatas/ModuleADatas/booking_detail_datas.py" afterDir="false" />
+    <list default="true" id="0eeab82d-0270-4ae2-9e62-c67f71f5ed03" name="Default Changelist" comment="写到B端订单执行内容审核">
+      <change afterPath="$PROJECT_DIR$/Commons/handle_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/add_data_m_loc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/add_data_m_loc/add_execution_results_pageloc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/add_data_m_loc/add_screenshot_pageloc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleNBLoc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleNBLoc/home_nb_pageloc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleNBLoc/quality_list_nb_pageloc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageLocators/ModuleNBLoc/quality_nb_pageloc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/add_data_m_page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/add_data_m_page/add_execution_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/add_data_m_page/add_screenshot_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleNBPage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleNBPage/home_nb_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleNBPage/quality_list_nb_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/ModuleNBPage/quality_nb_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_6b_add_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_7b_add_screenshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_8nb_ quality_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleD_NB/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleD_NB/test_1_step9_nb_quality_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleD_NB/test_2_step10_nb_quality_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TestModuleD_NB/test_nb_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDatas/ModuleNBDatas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDatas/ModuleNBDatas/login_nb_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDatas/ModuleNBDatas/quality_datas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Commons/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/logsfile/testlogs.log_2020-03-26 20_21_35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Outputs/reports/2020-03-26 18-35-45_result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/account_select_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/account_select_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/account_submit_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/account_submit_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/activity_manage_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Confirm_to_use_loc/activity_manage_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/booking_a_details_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Confirm_to_use_loc/booking_a_details_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/fill_form_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/fill_form_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/select_active_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/select_active_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/accept_pop_up_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Accept_b_m_loc/accept_pop_up_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/booking_list_m_pageLoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Accept_b_m_loc/booking_list_m_pageLoc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/booking_requirements_audit_details_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Check_booking_b_loc/booking_requirements_audit_details_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/order_b_check_search_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Check_booking_b_loc/order_b_check_search_pageloc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleAPage/activity_manage_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Confirm_to_use_page/activity_manage_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleAPage/booking_a_details_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleAPage/fill_form_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Create_booking_page/fill_form_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleAPage/select_active_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Create_booking_page/select_active_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/accept_pop_up_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Accept_b_m_page/accept_pop_up_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/account_select_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Create_booking_page/account_select_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/account_submit_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleAPage/Create_booking_page/account_submit_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/booking_list_m_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Accept_b_m_page/booking_list_m_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/booking_requirements_audit_details_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/order_b_check_search_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Check_booking_b_page/order_b_check_search_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commons/handle_Path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/handle_Path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Commons/testcase.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Commons/testcase.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/allure_reports/198999ae-d537-4b80-a3e7-b7cb45880c07-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/allure_reports/990a2e05-7bb1-43f3-a7a4-31ca67c36dd9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/allure_reports/f549f2ab-dbf4-42a0-98d0-b1a28db569a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/account_select_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleALoc/Create_booking_loc/account_select_pageloc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Accept_b_m_loc/booking_list_m_pageLoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/Accept_b_m_loc/booking_list_m_pageLoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/ModuleBLoc/login_b_pageloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageLocators/ModuleBLoc/login_b_pageloc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/Accept_b_m_page/booking_list_m_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/Accept_b_m_page/booking_list_m_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/ModuleBPage/login_b_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/ModuleBPage/login_b_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TestModuleA/test_1active_activities.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleA/test_1active_activities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TestModuleA/test_4active_confirm.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TestModuleA/test_a_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleA/test_a_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TestModuleB/test_2b_check_reservation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleB/test_2b_check_reservation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/TestModuleB/test_3b_accept_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleB/test_3b_accept_booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TestModuleB/test_b_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleB/test_b_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TestModuleC/test_4active_confirm.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_4active_confirm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TestModuleC/test_5_b_booking_pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TestModuleC/test_5b_booking_pass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/Commons_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestDatas/Commons_datas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestDatas/ModuleADatas/Booking_activities_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestDatas/ModuleADatas/Booking_activities_datas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestDatas/ModuleBDatas/order_b_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestDatas/ModuleBDatas/order_b_datas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lianxi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianxi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestCases/TestModuleD_NB" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,12 +115,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web_sissi1\TestCases\TestModuleD_NB" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web_sissi1\PageObjects\ModuleBPage\add_data_m_page" />
+      <recent name="D:\web_sissi1\PageLocators\ModuleBLoc\add_data" />
       <recent name="D:\web_sissi1\PageObjects\ModuleBPage\Check_booking_b_page" />
       <recent name="D:\web_sissi1\PageObjects\ModuleBPage\Accept_b_m_page" />
       <recent name="D:\web_sissi1\PageLocators\ModuleBLoc\Accept_b_m_loc" />
-      <recent name="D:\web_sissi1\PageLocators\ModuleBLoc\Check_booking_b_loc" />
-      <recent name="D:\web_sissi1\PageObjects\ModuleAPage\Create_booking_page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_1active_activities.py">
+  <component name="RunManager" selected="Python.test_2_step10_nb_quality_process">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WBY_Test_WEB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +153,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_2_step10_nb_quality_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WBY_Test_WEB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/.jenkins/workspace/web_sissi/TestCases/TestModuleD_NB" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/.jenkins/workspace/web_sissi/TestCases/TestModuleD_NB/test_2_step10_nb_quality_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,6 +199,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_1_step9_nb_quality_process.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="WBY_Test_WEB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\tool\python3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/TestModuleD_NB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleD_NB/test_1_step9_nb_quality_process.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_1active_activities.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WBY_Test_WEB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,51 +231,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_3b_accept_booking.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_2_step10_nb_quality_process.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WBY_Test_WEB" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="D:\tool\python3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/TestModuleB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/TestModuleD_NB" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleB/test_3b_accept_booking.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_4active_confirm.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="WBY_Test_WEB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\tool\python3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/TestModuleC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleC/test_4active_confirm.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_5_b_booking_pass.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="WBY_Test_WEB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="D:\tool\python3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases/TestModuleC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleC/test_5_b_booking_pass.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/TestModuleD_NB/test_2_step10_nb_quality_process.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -253,20 +264,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in web_sissi1" />
-      <item itemvalue="Python tests.pytest in test_3b_accept_booking.py" />
-      <item itemvalue="Python tests.pytest in test_4active_confirm.py" />
-      <item itemvalue="Python tests.pytest in test_5_b_booking_pass.py" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.test_2_step10_nb_quality_process" />
+      <item itemvalue="Python tests.pytest in web_sissi1" />
+      <item itemvalue="Python tests.pytest in test_1_step9_nb_quality_process.py" />
+      <item itemvalue="Python tests.pytest in test_2_step10_nb_quality_process.py" />
       <item itemvalue="Python tests.pytest in test_1active_activities.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_1active_activities.py" />
+        <item itemvalue="Python.test_2_step10_nb_quality_process" />
+        <item itemvalue="Python tests.pytest in test_1_step9_nb_quality_process.py" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest in test_5_b_booking_pass.py" />
-        <item itemvalue="Python tests.pytest in test_4active_confirm.py" />
-        <item itemvalue="Python tests.pytest in test_3b_accept_booking.py" />
+        <item itemvalue="Python tests.pytest in test_1active_activities.py" />
+        <item itemvalue="Python tests.pytest in test_2_step10_nb_quality_process.py" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +313,14 @@
       <workItem from="1585187069821" duration="351000" />
       <workItem from="1585187535459" duration="22984000" />
       <workItem from="1585310249791" duration="7314000" />
-      <workItem from="1585360965967" duration="14251000" />
+      <workItem from="1585360965967" duration="15283000" />
+      <workItem from="1585547660037" duration="29867000" />
+      <workItem from="1585619628951" duration="4482000" />
+      <workItem from="1585624613463" duration="16904000" />
+      <workItem from="1585706018231" duration="29467000" />
+      <workItem from="1585793488006" duration="18306000" />
+      <workItem from="1586308746123" duration="1163000" />
+      <workItem from="1586488157180" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="重运行间隔时间变为6s">
       <created>1584787740047</created>
@@ -332,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585187400734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="写到B端订单执行内容审核">
+      <created>1585385630526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585385630526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,53 +382,80 @@
     <MESSAGE value="test分支重运行间隔时间变为5s" />
     <MESSAGE value="定位不到元素" />
     <MESSAGE value="更新TestA端" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新TestA端" />
+    <MESSAGE value="写到B端订单执行内容审核" />
+    <option name="LAST_COMMIT_MESSAGE" value="写到B端订单执行内容审核" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/TestCases/TestModuleB/test_2b_check_reservation.py</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageObjects/ModuleBPage/add_data_m_page/add_execution_page.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PageObjects/ModuleBPage/add_data_m_page/add_screenshot_page.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lianxi.py</url>
-          <line>25</line>
+          <line>50</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="testargs['b_add_result'][3]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$main.coverage" NAME="main Coverage Results" MODIFIED="1584269171920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/web_sissi1$main.coverage" NAME="main Coverage Results" MODIFIED="1585384494241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_4active_confirm_py.coverage" NAME="pytest in test_4active_confirm.py Coverage Results" MODIFIED="1585384324523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
+    <SUITE FILE_PATH="coverage/web_sissi1$main.coverage" NAME="main Coverage Results" MODIFIED="1585825278511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_4active_confirm_py.coverage" NAME="pytest in test_4active_confirm.py Coverage Results" MODIFIED="1585549533698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
+    <SUITE FILE_PATH="coverage/web_sissi1$test_2_step10_nb_quality_process.coverage" NAME="test_2_step10_nb_quality_process Coverage Results" MODIFIED="1585833460526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.jenkins/workspace/web_sissi/TestCases/TestModuleD_NB" />
+    <SUITE FILE_PATH="coverage/web_sissi1$handle_Path.coverage" NAME="handle_Path Coverage Results" MODIFIED="1585644131156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_active_activities_py.coverage" NAME="pytest in test_active_activities.py Coverage Results" MODIFIED="1582436235654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
     <SUITE FILE_PATH="coverage/web_sissi$pytest_in_test_b_accept_booking3_py.coverage" NAME="pytest in test_b_accept_booking3.py Coverage Results" MODIFIED="1585202495247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
-    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_2b_check_reservation_py.coverage" NAME="pytest in D:/web_sissi1/TestCases/TestModuleB/test_2b_check_reservation.py Coverage Results" MODIFIED="1585379782166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_for_test_6b_add_result_Test_B_add_result_test_b_add_execution_result.coverage" NAME="pytest for test_6b_add_result.Test_B_add_result.test_b_add_execution_result Coverage Results" MODIFIED="1585562539647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_9nb_quality_process_py.coverage" NAME="pytest in test_1_step9_nb_quality_process.py Coverage Results" MODIFIED="1585833382772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleD_NB" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_2b_check_reservation_py.coverage" NAME="pytest in test_2b_check_reservation.py Coverage Results" MODIFIED="1585548503900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
     <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_a_login_py.coverage" NAME="pytest in test_a_login.py Coverage Results" MODIFIED="1585370320608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleA" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_b_check_reservation_py.coverage" NAME="pytest in test_b_check_reservation.py Coverage Results" MODIFIED="1584366574068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
     <SUITE FILE_PATH="coverage/gittest$pytest_in_test_drag_py.coverage" NAME="pytest in test_drag.py Coverage Results" MODIFIED="1584878137319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_a_login_py.coverage" NAME="pytest in test_a_login.py Coverage Results" MODIFIED="1584350677724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_create_Booking_activities_py.coverage" NAME="pytest in test_active_activities.py Coverage Results" MODIFIED="1582384168493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/ModuleATest" />
     <SUITE FILE_PATH="coverage/web_sissi$lianxi.coverage" NAME="lianxi Coverage Results" MODIFIED="1585203907260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_9_nb_login_py.coverage" NAME="pytest in test_9_nb_login.py Coverage Results" MODIFIED="1585662421848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleD_NB" />
+    <SUITE FILE_PATH="coverage/web_sissi1$handle_mysql.coverage" NAME="handle_mysql Coverage Results" MODIFIED="1585568355410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$select_active_pageloc.coverage" NAME="select_active_pageloc Coverage Results" MODIFIED="1582338016018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageLocators/ModuleALoc" />
     <SUITE FILE_PATH="coverage/web_sissi$pytest_in_test_1active_activities_py.coverage" NAME="pytest in test_1active_activities.py Coverage Results" MODIFIED="1585212699290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleA" />
     <SUITE FILE_PATH="coverage/gittest$basepage.coverage" NAME="test_drag Coverage Results" MODIFIED="1584886799324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_b_login_py.coverage" NAME="pytest in test_b_login.py Coverage Results" MODIFIED="1584350566779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$handle_logs.coverage" NAME="handle_logs Coverage Results" MODIFIED="1582202552827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_6b_add_result_py.coverage" NAME="pytest in test_6b_add_result.py Coverage Results" MODIFIED="1585644348826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1582297821323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_3b_accept_booking_py.coverage" NAME="pytest in test_3b_accept_booking.py Coverage Results" MODIFIED="1585381685217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_3b_accept_booking_py.coverage" NAME="pytest in test_3b_accept_booking.py Coverage Results" MODIFIED="1585548662384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
     <SUITE FILE_PATH="coverage/web_sissi$pytest_for_test_4active_confirm_Test_a_active_confirm_test_active_confirm_process.coverage" NAME="pytest for test_4active_confirm.Test_a_active_confirm.test_active_confirm_process Coverage Results" MODIFIED="1585225292984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleA" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$Booking_activities_datas.coverage" NAME="Booking_activities_datas Coverage Results" MODIFIED="1582349118891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDatas/ModuleADatas" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_10nb_quality_process_py.coverage" NAME="pytest in test_2_step10_nb_quality_process.py Coverage Results" MODIFIED="1585823582889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleD_NB" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$pytest_for_test_login_TestLoginA.coverage" NAME="pytest for test_login.TestLoginA Coverage Results" MODIFIED="1582209662060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_5_b_booking_pass_py.coverage" NAME="pytest in test_5_b_booking_pass.py Coverage Results" MODIFIED="1585384393717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
-    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_1active_activities_py.coverage" NAME="pytest in test_1active_activities.py Coverage Results" MODIFIED="1585384683671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleA" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_5_b_booking_pass_py.coverage" NAME="pytest in test_5_b_booking_pass.py Coverage Results" MODIFIED="1585549593426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_1active_activities_py.coverage" NAME="pytest in test_1active_activities.py Coverage Results" MODIFIED="1585825064524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleA" />
     <SUITE FILE_PATH="coverage/web_sissi$pytest_for_test_2b_check_reservation_Test_B_check_test_B_check_reservation.coverage" NAME="pytest for test_2b_check_reservation.Test_B_check.test_B_check_reservation Coverage Results" MODIFIED="1585216320835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
     <SUITE FILE_PATH="coverage/web_sissi$test_drag.coverage" NAME="test_drag Coverage Results" MODIFIED="1585201887199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_8nb__quality_testing_py.coverage" NAME="pytest in test_8nb_ quality_testing.py Coverage Results" MODIFIED="1585660724453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
     <SUITE FILE_PATH="coverage/WBY_Test_WEB$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1584272458781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Commons" />
     <SUITE FILE_PATH="coverage/web_sissi$pytest_in_test_2b_check_reservation_py.coverage" NAME="pytest in test_2b_check_reservation.py Coverage Results" MODIFIED="1585218814911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleB" />
-    <SUITE FILE_PATH="coverage/web_sissi1$lianxi.coverage" NAME="lianxi Coverage Results" MODIFIED="1585316217154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/web_sissi1$pytest_in_test_7b_add_screenshot_py.coverage" NAME="pytest in test_7b_add_screenshot.py Coverage Results" MODIFIED="1585644449722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases/TestModuleC" />
+    <SUITE FILE_PATH="coverage/web_sissi1$lianxi.coverage" NAME="lianxi Coverage Results" MODIFIED="1585805169728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/web_sissi$main.coverage" NAME="main Coverage Results" MODIFIED="1585218944742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
